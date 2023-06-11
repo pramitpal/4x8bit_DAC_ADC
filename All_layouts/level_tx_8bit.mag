@@ -1,0 +1,51 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1686240839
+<< metal2 >>
+rect 38 1737 72 1793
+rect 1197 1731 1231 1793
+rect 2356 1729 2390 1793
+rect 3515 1727 3549 1793
+rect 4674 1729 4708 1793
+rect 5833 1727 5867 1793
+rect 6992 1727 7026 1793
+rect 8151 1731 8185 1793
+rect 1050 0 1093 77
+rect 2209 0 2252 77
+rect 3368 0 3411 71
+rect 4527 0 4570 89
+rect 5686 0 5729 87
+rect 6845 0 6888 95
+rect 8004 0 8047 79
+rect 9163 0 9206 81
+<< metal3 >>
+rect 0 1604 164 1704
+rect 0 837 174 937
+rect 0 105 268 205
+use level_tx_1bit  level_tx_1bit_0
+array 0 7 1159 0 0 1793
+timestamp 1686240839
+transform 1 0 2042 0 1 -243
+box -2042 243 -883 2036
+<< labels >>
+rlabel metal2 s 50 1780 50 1780 4 VIN0
+rlabel metal2 s 1208 1786 1208 1786 4 VIN1
+rlabel metal2 s 2378 1784 2378 1784 4 VIN2
+rlabel metal2 s 3528 1778 3528 1778 4 VIN3
+rlabel metal2 s 4692 1776 4692 1776 4 VIN4
+rlabel metal2 s 5854 1774 5854 1774 4 VIN5
+rlabel metal2 s 7000 1778 7000 1778 4 VIN6
+rlabel metal2 s 8172 1776 8172 1776 4 VIN7
+rlabel metal3 s 16 1650 16 1650 4 VCC
+rlabel metal3 s 16 880 16 880 4 VCCL
+rlabel metal3 s 34 172 34 172 4 DVSS
+rlabel metal2 s 1066 22 1066 22 4 VOUT0
+rlabel metal2 s 2226 22 2226 22 4 VOUT1
+rlabel metal2 s 3388 24 3388 24 4 VOUT2
+rlabel metal2 s 4544 24 4544 24 4 VOUT3
+rlabel metal2 s 5706 22 5706 22 4 VOUT4
+rlabel metal2 s 6864 40 6864 40 4 VOUT5
+rlabel metal2 s 8026 30 8026 30 4 VOUT6
+rlabel metal2 s 9184 30 9184 30 4 VOUT7
+<< end >>

@@ -1,0 +1,36 @@
+* SPICE3 file created from level_tx_1bit.ext - technology: sky130A
+
+.subckt level_tx_1bit DVSS VCCL VCC VIN VOUT
+X0 DVSS a_n1533_1353# a_n1136_1438# DVSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.5
+X1 VOUT a_n1743_693# DVSS DVSS sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.5
+X2 a_n1743_693# VIN VCCL VCCL sky130_fd_pr__pfet_01v8 ad=0.244 pd=2.26 as=0.244 ps=2.26 w=0.84 l=0.15
+X3 a_n1533_1353# a_n1743_693# VCCL VCCL sky130_fd_pr__pfet_01v8 ad=0.244 pd=2.26 as=0.487 ps=4.52 w=0.84 l=0.15
+X4 VCC VOUT a_n1136_1438# VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X5 VCC a_n1136_1438# VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=5.16 as=0.29 ps=2.58 w=1 l=0.5
+X6 a_n1743_693# VIN DVSS DVSS sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.15
+X7 a_n1533_1353# a_n1743_693# DVSS DVSS sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.244 ps=2.84 w=0.42 l=0.15
+.ends
+
+X1 DVSS VCCL VCC VIN VOUT level_tx_1bit
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+
+V1 DVSS 0 dc 0
+V2 VCC 0 dc 3.3
+V3 VCCL 0 dc 1.8
+
+
+V4 VIN 0 PULSE(0 1.8 0 0.1n 0.1n 2n 4n)
+
+.tran 0.1n 10n
+.control
+run
+plot VOUT VIN
+.endc
+.end

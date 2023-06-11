@@ -1,0 +1,152 @@
+* SPICE3 file created from 4_bit_dac.ext - technology: sky130A
+
+.subckt x4_bit_dac VCC VSS D0 VREFL D0_BUF VREFH D1 D1_BUF D2 D3 D2_BUF D3_BUF VOUT
+X0 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT D1_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X1 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X2 D1_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X3 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT D1_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X4 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X5 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X6 D1_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X7 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X8 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X9 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X10 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_H VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X11 D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X12 3_bit_dac_0[0]/2_bit_dac_0[1]/VREFH D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X13 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X14 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X15 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X16 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_H VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X17 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_H D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X18 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_H 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_L VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X19 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_L 3_bit_dac_0[0]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X20 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_L D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X21 D0_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X22 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X23 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[0]/switch2n_3v3_0/R_L VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X24 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0.435 ps=4.74 w=0.5 l=0.5
+X25 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/D1 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=6.38 ps=56.8 w=1 l=0.5
+X26 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X27 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0.87 ps=7.74 w=1 l=0.5
+X28 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/D1 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=3.19 ps=34.8 w=0.5 l=0.5
+X29 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0 ps=0 w=0.5 l=0.5
+X30 3_bit_dac_0[0]/2_bit_dac_0[0]/D1 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X31 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0 ps=0 w=1 l=0.5
+X32 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X33 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X34 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X35 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X36 3_bit_dac_0[1]/VREFH 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X37 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[0]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X38 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/D0 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X39 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/VREFH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.578 ps=5.32 w=0.5 l=0.5
+X40 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.578 ps=5.32 w=0.5 l=0.5
+X41 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X42 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X43 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L 3_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X44 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X45 3_bit_dac_0[0]/2_bit_dac_0[0]/D0 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X46 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/D0 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X47 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X48 3_bit_dac_0[0]/VOUT D2_BUF 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X49 3_bit_dac_0[0]/switch_n_3v3_0/DX_ switch_n_3v3_0/D2 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X50 D2_BUF 3_bit_dac_0[0]/switch_n_3v3_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X51 3_bit_dac_0[0]/VOUT D2_BUF 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X52 3_bit_dac_0[0]/switch_n_3v3_0/DX_ switch_n_3v3_0/D2 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X53 3_bit_dac_0[0]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[0]/switch_n_3v3_0/DX_ 3_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X54 D2_BUF 3_bit_dac_0[0]/switch_n_3v3_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X55 3_bit_dac_0[0]/2_bit_dac_0[0]/VOUT 3_bit_dac_0[0]/switch_n_3v3_0/DX_ 3_bit_dac_0[0]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X56 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT 3_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0.435 ps=4.74 w=0.5 l=0.5
+X57 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X58 3_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X59 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT 3_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0.87 ps=7.74 w=1 l=0.5
+X60 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X61 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0 ps=0 w=0.5 l=0.5
+X62 3_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X63 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0 ps=0 w=1 l=0.5
+X64 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X65 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X66 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X67 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X68 3_bit_dac_0[1]/2_bit_dac_0[1]/VREFH 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X69 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH 3_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X70 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X71 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.578 ps=5.32 w=0.5 l=0.5
+X72 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.578 ps=5.32 w=0.5 l=0.5
+X73 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X74 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X75 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L 3_bit_dac_0[1]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X76 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X77 3_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X78 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X79 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X80 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0.435 ps=4.74 w=0.5 l=0.5
+X81 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ D1 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X82 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X83 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0.87 ps=7.74 w=1 l=0.5
+X84 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ D1 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X85 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0 ps=0 w=0.5 l=0.5
+X86 3_bit_dac_0[1]/2_bit_dac_0[0]/D1 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X87 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_ 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0 ps=0 w=1 l=0.5
+X88 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X89 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X90 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_H VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X91 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X92 VREFL 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X93 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH 3_bit_dac_0[1]/2_bit_dac_0[1]/VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X94 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# D0 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X95 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# VREFL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.361 ps=3.45 w=0.5 l=0.5
+X96 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_H VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.578 ps=5.32 w=0.5 l=0.5
+X97 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_H 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X98 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_H 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_L VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X99 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_L VREFL VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X100 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_L 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.578 pd=5.32 as=0 ps=0 w=0.5 l=0.5
+X101 3_bit_dac_0[1]/2_bit_dac_0[0]/D0 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X102 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# D0 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X103 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/VOUTL 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498# 3_bit_dac_0[1]/2_bit_dac_0[1]/switch2n_3v3_0/R_L VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.29 ps=2.58 w=1 l=0.5
+X104 3_bit_dac_0[1]/VOUT switch_n_3v3_0/D2 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.435 pd=4.74 as=0 ps=0 w=0.5 l=0.5
+X105 3_bit_dac_0[1]/switch_n_3v3_0/DX_ D2 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X106 switch_n_3v3_0/D2 3_bit_dac_0[1]/switch_n_3v3_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X107 3_bit_dac_0[1]/VOUT switch_n_3v3_0/D2 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0 ps=0 w=1 l=0.5
+X108 3_bit_dac_0[1]/switch_n_3v3_0/DX_ D2 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X109 3_bit_dac_0[1]/2_bit_dac_0[1]/VOUT 3_bit_dac_0[1]/switch_n_3v3_0/DX_ 3_bit_dac_0[1]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.5
+X110 switch_n_3v3_0/D2 3_bit_dac_0[1]/switch_n_3v3_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X111 3_bit_dac_0[1]/2_bit_dac_0[0]/VOUT 3_bit_dac_0[1]/switch_n_3v3_0/DX_ 3_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=1 l=0.5
+X112 VOUT D3_BUF 3_bit_dac_0[0]/VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=3.16 as=0.435 ps=4.74 w=0.5 l=0.5
+X113 switch_n_3v3_0/DX_ D3 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X114 D3_BUF switch_n_3v3_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.5
+X115 VOUT D3_BUF 3_bit_dac_0[1]/VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.5
+X116 switch_n_3v3_0/DX_ D3 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X117 3_bit_dac_0[1]/VOUT switch_n_3v3_0/DX_ VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0 ps=0 w=0.5 l=0.5
+X118 D3_BUF switch_n_3v3_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0 ps=0 w=0.5 l=0.5
+X119 3_bit_dac_0[0]/VOUT switch_n_3v3_0/DX_ VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.87 pd=7.74 as=0 ps=0 w=1 l=0.5
+.ends
+
+X1 VCC VSS D0 VREFL D0_BUF VREFH D1 D1_BUF D2 D3 D2_BUF D3_BUF VOUT x4_bit_dac
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+
+V1 VSS 0 dc 0
+V2 VCC 0 dc 3.3
+
+V3 VREFH 0 dc 3.3
+V4 VREFL 0 dc 0
+
+V5 D0 0 PULSE(0 1.8 0 1n 1n 1u 2u)
+V6 D1 0 PULSE(0 1.8 0 1n 1n 2u 4u)
+V7 D2 0 PULSE(0 1.8 0 1n 1n 4u 8u)
+V8 D3 0 PULSE(0 1.8 0 1n 1n 8u 16u)
+
+.tran 0.1u 20u
+.control
+run
+plot VOUT
+.endc
+.end

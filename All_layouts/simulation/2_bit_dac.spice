@@ -1,0 +1,55 @@
+* SPICE3 file created from 2_bit_dac.ext - technology: sky130A
+
+.subckt x2_bit_dac VCC VSS D0 VREFL D0_BUF VREFH VOUT D1_BUF D1
+X0 VOUT D1_BUF switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X1 switch_n_3v3_v2_0/DX_ D1 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X2 D1_BUF switch_n_3v3_v2_0/DX_ VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X3 VOUT D1_BUF switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X4 switch_n_3v3_v2_0/DX_ D1 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X5 switch2n_3v3_0/VOUTL switch_n_3v3_v2_0/DX_ VOUT VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X6 D1_BUF switch_n_3v3_v2_0/DX_ VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X7 switch2n_3v3_0/VOUTH switch_n_3v3_v2_0/DX_ VOUT VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X8 switch2n_3v3_0/VOUTH switch2n_3v3_0/a_n6524_n498# switch2n_3v3_0/VREFH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X9 switch2n_3v3_0/VREFH D0_BUF switch2n_3v3_0/VOUTH VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X10 switch2n_3v3_0/VREFH switch2n_3v3_0/R_H VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X11 D0_BUF switch2n_3v3_0/a_n6524_n498# VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X12 VREFL D0_BUF switch2n_3v3_0/VOUTL VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X13 switch2n_3v3_0/VREFH VREFH VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X14 switch2n_3v3_0/a_n6524_n498# D0 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X15 switch2n_3v3_0/VOUTL switch2n_3v3_0/a_n6524_n498# VREFL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X16 switch2n_3v3_0/VOUTH switch2n_3v3_0/a_n6524_n498# switch2n_3v3_0/R_H VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X17 switch2n_3v3_0/R_H D0_BUF switch2n_3v3_0/VOUTH VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X18 switch2n_3v3_0/R_H switch2n_3v3_0/R_L VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X19 switch2n_3v3_0/R_L VREFL VSS sky130_fd_pr__res_generic_nd__hv w=0.42 l=2.1
+X20 switch2n_3v3_0/R_L D0_BUF switch2n_3v3_0/VOUTL VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X21 D0_BUF switch2n_3v3_0/a_n6524_n498# VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X22 switch2n_3v3_0/a_n6524_n498# D0 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+X23 switch2n_3v3_0/VOUTL switch2n_3v3_0/a_n6524_n498# switch2n_3v3_0/R_L VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+X1 VCC VSS D0 VREFL D0_BUF VREFH VOUT D1_BUF D1 x2_bit_dac
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+
+V1 VSS 0 dc 0
+V2 VCC 0 dc 3.3
+
+V3 VREFH 0 dc 3.3
+V4 VREFL 0 dc 0
+
+V5 D0 0 PULSE(0 1.8 0 1n 1n 1u 2u)
+V6 D1 0 PULSE(0 1.8 0 1n 1n 2u 4u)
+
+
+.tran 100n 10u
+.control
+run
+plot VOUT D0 D1-1
+.endc
+.end

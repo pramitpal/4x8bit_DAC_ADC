@@ -1,0 +1,705 @@
+timestamp 1686021299
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use switch_n_3v3 switch_n_3v3_0 1 0 12004 0 1 3360
+use 3_bit_dac 3_bit_dac_0[0:0:7147][0:1:2456] 1 0 118 0 1 0
+node "D1_BUF" 0 51.871 3564 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3772 266 0 0 0 0 0 0 0 0
+node "VREFH" 0 42.3521 378 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5335 304 0 0 0 0 0 0 0 0
+node "D0_BUF" 0 46.3688 277 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5885 324 0 0 0 0 0 0 0 0
+node "D3_BUF" 0 35.2092 5202 1272 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4182 286 0 0 0 0 0 0 0 0
+node "D2_BUF" 0 35.5972 5122 1272 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4182 286 0 0 0 0 0 0 0 0
+node "m2_5522_2840#" 1 57.8854 5522 2840 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7421 444 0 0 0 0 0 0 0 0
+node "m2_5442_2871#" 0 21.8292 5442 2871 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6478 398 0 0 0 0 0 0 0 0
+node "m2_5362_2862#" 1 20.9137 5362 2862 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6724 410 0 0 0 0 0 0 0 0
+node "m2_5282_2868#" 0 22.6096 5282 2868 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6273 388 0 0 0 0 0 0 0 0
+node "m2_5122_2862#" 1 54.7854 5122 2862 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7339 440 0 0 0 0 0 0 0 0
+node "m2_144_1318#" 3 505.712 144 1318 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107100 3286 0 0 0 0 0 0 0 0
+node "m2_42_2033#" 3 509.811 42 2033 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107780 3306 0 0 0 0 0 0 0 0
+node "VSS" 0 106.719 144 3644 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14416 560 0 0 0 0 0 0 0 0
+node "VCC" 0 100.227 42 4374 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13328 528 0 0 0 0 0 0 0 0
+node "D3" 0 40.8431 5202 4794 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4838 318 0 0 0 0 0 0 0 0
+node "D2" 0 39.5788 5122 4788 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5084 330 0 0 0 0 0 0 0 0
+node "D1" 0 45.0692 3564 4828 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3444 250 0 0 0 0 0 0 0 0
+node "VREFL" 0 51.3387 378 4775 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7535 384 0 0 0 0 0 0 0 0
+node "D0" 0 52.142 274 4773 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7645 388 0 0 0 0 0 0 0 0
+node "m1_6908_2496#" 3 284.441 6908 2496 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12036 854 8760 620 0 0 0 0 0 0 0 0
+node "m1_5191_2571#" 2 187.233 5191 2571 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16276 896 2836 256 0 0 0 0 0 0 0 0
+node "m1_5191_3025#" 1 191.271 5191 3025 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16822 924 3328 232 0 0 0 0 0 0 0 0
+node "VOUT" 2 250.048 6516 3516 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15847 874 13273 742 0 0 0 0 0 0 0 0
+node "m1_6512_3708#" 4 330.36 6512 3708 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22798 1530 6958 474 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m2_5362_2862#" "m1_5191_2571#" 1.05735
+cap "D1" "D2" 2.66328
+cap "m1_5191_3025#" "m2_5362_2862#" 12.3859
+cap "m2_42_2033#" "VCC" 4.16667
+cap "VOUT" "m1_6908_2496#" 2.59628
+cap "m2_5282_2868#" "m1_5191_2571#" 0.988214
+cap "m1_6908_2496#" "m1_5191_2571#" 1.25164
+cap "m1_5191_3025#" "m2_5282_2868#" 11.3297
+cap "VREFH" "D0_BUF" 45.7547
+cap "m1_6908_2496#" "m1_6512_3708#" 4.33077
+cap "m2_5442_2871#" "m2_5522_2840#" 75.7576
+cap "D2" "D3" 59.596
+cap "D0" "VREFL" 62.844
+cap "m2_5282_2868#" "m2_5362_2862#" 77.2727
+cap "m2_5122_2862#" "D2_BUF" 1.32429
+cap "m2_144_1318#" "VSS" 4.19236
+cap "m2_5442_2871#" "m1_5191_2571#" 0.983217
+cap "m1_5191_3025#" "m2_5122_2862#" 12.8861
+cap "m1_5191_3025#" "m2_5442_2871#" 11.7597
+cap "m1_5191_2571#" "m2_5522_2840#" 1.27232
+cap "m1_5191_3025#" "m2_5522_2840#" 10.6124
+cap "m2_5362_2862#" "m2_5122_2862#" 1.1583
+cap "m2_42_2033#" "m2_144_1318#" 457.447
+cap "m2_5442_2871#" "m2_5362_2862#" 78.2828
+cap "m2_5362_2862#" "m2_5522_2840#" 2.51397
+cap "D2_BUF" "D3_BUF" 51.5152
+cap "m2_5282_2868#" "m2_5122_2862#" 42.1788
+cap "m1_5191_3025#" "m1_5191_2571#" 43.363
+cap "VOUT" "m1_6512_3708#" 189.653
+cap "D3_BUF" "m1_5191_2571#" 1.63087
+cap "3_bit_dac_0[0]/D0_BUF" "3_bit_dac_0[0]/VREFH" -45.7547
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/m2_n6882_n991#" -0.662145
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/DX_BUF" -51.5152
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" -0.195826
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" 0.269077
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" -0.0359906
+cap "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[0]/VSS" 0.216243
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/VREFL" -10.7812
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/VREFL" 21.2251
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/D0" -114.056
+cap "3_bit_dac_0[0]/D0" "3_bit_dac_0[0]/VSS" 379.485
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[0]/D0" -6.91964
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/2_bit_dac_0[0]/D0" 11.326
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" -0.267928
+cap "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" "3_bit_dac_0[0]/VSS" 0.447846
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[0]/VREFL" -3.3635
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/2_bit_dac_0[0]/VREFL" 5.42494
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" -0.304321
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/VSS" 369.196
+cap "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0]/VSS" 1.18428
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/VCC" 0.0331422
+cap "3_bit_dac_0[0]/D0" "3_bit_dac_0[0]/VCC" 3.84137e-14
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" 0.062422
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/D0" 0.0586972
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 2.39889
+cap "switch_n_3v3_0/D2" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 34.8418
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/DX_BUF" 28.3271
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/D6" 0.768311
+cap "switch_n_3v3_0/D5" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 2.54003
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/DX_BUF" 11.5298
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/VCC" -0.00113685
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 73.6904
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VSS" -0.0142243
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D7" 3.10407
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 0.133211
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX" -0.0139779
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 1.90717
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 3.52064
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 0.724196
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/D5" 0.77662
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX_BUF" 96.4687
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/D7" -43.9394
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" -0.644459
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX_BUF" 17.7222
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" -6.99689
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D7" 7.56602
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/DX_BUF" 0.00476037
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/D7" 2.54003
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/D2" -24.3017
+cap "switch_n_3v3_0/D5" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 3.52064
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 2.69529
+cap "switch_n_3v3_0/D5" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 1.11245
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 2.57563
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/DX_BUF" 5.47323
+cap "switch_n_3v3_0/D2" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 2.36128
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 8.81595
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/DX_BUF" 0.00262411
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/D2" 16.5781
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/D7" 0.761407
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/DX_BUF" -0.625821
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/DX_BUF" 30.9571
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/DX" -4.22641
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/VSS" 17.2621
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 2.54003
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/DX" -0.139919
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/DX_BUF" 27.124
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 2.54003
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/D7" 3.52064
+cap "switch_n_3v3_0/D2" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" 3.1875
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/D7" 0.507596
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VCC" 0.0783426
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 8.11009
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/D5" -43.9394
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" -0.165732
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/D6" -43.9394
+cap "switch_n_3v3_0/D2" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 2.33044
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VSS" 0.786734
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D7" 0.020353
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VSS" -1.11022e-16
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX_" 10.1821
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 13.2266
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D2" 0.285013
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/DX_BUF" 2.91571
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/VSS" 0.235369
+cap "3_bit_dac_0[0]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VOUT" 0.106081
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 0.932054
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D4" 0.00547791
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D6" 0.0181679
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[0]/switch_n_3v3_1/DX_" 0.277228
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/VSS" 0.0184248
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" -1.17891
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VSS" -2.22045e-16
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VOUT" 5.24039
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/D2" -0.0135889
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VOUT" 5.8029
+cap "switch_n_3v3_0/D2" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" -0.810355
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/VREFH" 1.05357
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D2" 2.3787
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D5" 0.0163164
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 140.413
+cap "3_bit_dac_0[0]/switch_n_3v3_1/DX_" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" -0.0135889
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 0.0552651
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 0.401449
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 323.925
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/D2" 0.853714
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/VSS" 0.441083
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 2.05875
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" -21.6151
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VSS" 4.332
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 2.10609
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" -0.0172715
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/VREFH" 0.184662
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 1.13687e-13
+cap "3_bit_dac_0[0]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VSS" 1.14517
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VSS" 0.13001
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VCC" 0.0727444
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/DX_" 0.145934
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VSS" 10.1505
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VCC" 0.624211
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VSS" 22.6546
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 0.730605
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VREFH" 0.023201
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/DX_" 0.0292761
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[0]/switch_n_3v3_1/VREFH" 0.533867
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VREFL" 5.74371
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_BUF" 0.0260783
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 101.005
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFL" 6.21932
+cap "switch_n_3v3_0/D7" "switch_n_3v3_0/VSS" -3.55271e-15
+cap "3_bit_dac_0[0]/switch_n_3v3_1/DX_" "switch_n_3v3_0/DX_" 5.21559
+cap "switch_n_3v3_0/VOUT" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 1.43698
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/VOUT" 0.0181194
+cap "switch_n_3v3_0/VSS" "switch_n_3v3_0/VREFH" 4.98759
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 12.6946
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VREFH" 1.17288
+cap "switch_n_3v3_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 0.345845
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/VREFH" 2.79762
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/VREFH" 2.23883
+cap "switch_n_3v3_0/D7" "switch_n_3v3_0/VREFH" 3.04239
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VREFH" 0.263188
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFH" 12.1958
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0]/VCC" 0.551447
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/VREFL" 0.340251
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 0.0633706
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/VREFL" 2.38632
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/VREFL" -0.056284
+cap "3_bit_dac_0[0]/VSS" "3_bit_dac_0[0]/VCC" 293.912
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" "3_bit_dac_0[0]/VCC" 0.011341
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/D0" 0.135871
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" -1.46549e-14
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/D0" 0.0510098
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" -1.13687e-13
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/VREFL" -9.54792e-15
+cap "3_bit_dac_0[0]/D0" "3_bit_dac_0[0]/VCC" 1.13687e-13
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 2.84217e-14
+cap "3_bit_dac_0[0]/VCC" "3_bit_dac_0[0]/VSS" 0.0474198
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 0.000975424
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D5" 0.00307564
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 0.00346769
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D2" 0.004504
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/DX" 0.0225068
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/VSS" 0.000690733
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[1]/2_bit_dac_0[0]/D1" 0.00140535
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D7" 0.00246421
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 3.49114
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/D1" "switch_n_3v3_0/DX" 0.0032201
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 0.00274513
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 1.15726
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/VSS" -0.0160811
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" 1.77278
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/VCC" 16.7776
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/DX_BUF" 0.0626758
+cap "switch_n_3v3_0/D5" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 1.89656
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/VSS" 5.88194
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D2" 21.0621
+cap "switch_n_3v3_0/D5" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 5.69672
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/D4" 3.17622
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 0.266487
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/D4" 5.69672
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" 0.612902
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX_" 1.94788
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VSS" 7.92627
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 4.19865
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D7" -0.159428
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/D4" -36.8687
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/DX_BUF" -4.22641
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VSS" 0.0997358
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/D2" -0.662145
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D5" 0.020045
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D2" -7.40763
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/D2" 60.5468
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 0.0171602
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D4" 0.0232564
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VSS" 3.64183
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/DX_BUF" -0.316354
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D5" 0.199854
+cap "3_bit_dac_0[1]/D2" "switch_n_3v3_0/DX" 0.00476831
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/D7" 1.37991
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VSS" 3.64313
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" 0.00660755
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/DX_" 0.00303425
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D4" 0.242358
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/VSS" 0.0172148
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/D7" 0.897001
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VCC" 5.57429
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 16.4029
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/D2" 11.0686
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/D7" 5.68132
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VCC" 9.40991
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 34.7509
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/DX_" 0.00081246
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/VSS" 0.0179176
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" -6.99689
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 1.25917
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/D7" -2.51397
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VCC" 6.18751
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D5" 18.5878
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" 5.69672
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/D7" 3.64944
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VCC" 6.19953
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/VREFH" 0.000248615
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D4" 22.1129
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D7" 0.0153126
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[0]/D1" 0.245056
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/D5" -37.8788
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D7" 4.30978
+cap "switch_n_3v3_0/D7" "switch_n_3v3_0/VSS" 5.8465
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/D5" 0.824916
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VSS" 67.5824
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/VSS" 6.86797
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/D7" 0.139041
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/VCC" 0.194357
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 3.40923
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[0]/D1" 0.0174449
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/D4" 1.16745
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VSS" -0.17412
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D7" 0.0458907
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX_BUF" 1.66173
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/D2" 94.1015
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/VSS" 3.64076
+cap "switch_n_3v3_0/D6" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 0.165957
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/D2" 49.6961
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/DX_BUF" -0.336648
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D7" 15.1366
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/D7" 5.52399
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/VCC" 10.3462
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D4" -0.322915
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/D2" -1.1583
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/DX_BUF" 0.00146404
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" -0.0134116
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/D2" -19.8324
+cap "3_bit_dac_0[0]/D1" "switch_n_3v3_0/D2" 3.882
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/D7" -35.3535
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/DX" 18.346
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/VCC" 6.17767
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/D7" 0.472834
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX_BUF" 0.539941
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D4" 0.00127079
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D7" -2.1684e-19
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/VREFL" 4.01034
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VCC" 4.35249
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D6" 0.0236034
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/VOUT" 9.29344
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/D2" 1.26765
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VSS" 0.515894
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VSS" -0.0671154
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_0/DX" 0.255605
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VOUT" 12.5077
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VCC" 200.186
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 0.740105
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/VREFL" 0.0181194
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX" 0.268894
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D7" -0.477384
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/VCC" 10.2957
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VOUT" 0.0829512
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VSS" 7.38494
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/DX_BUF" -2.1684e-19
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/D7" 1.15867
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/DX" 0.00553876
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/D2" 2.47495
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[0]/switch_n_3v3_1/DX_" 5.14367
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VSS" 0.731216
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_BUF" 0.00857001
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VCC" -2.22045e-16
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 9.72025
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/D6" 0.0202482
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/VSS" 0.0486003
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/DX" -0.316386
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VREFL" 35.1935
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D2" 0.000972904
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D7" 3.26235
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX_BUF" 0.00192819
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 13.1857
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VSS" 323.925
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VOUT" 0.00155074
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/DX_BUF" 4.98407
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D6" 0.00172454
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VOUT" 16.2116
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/VCC" 0.262526
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/VREFL" 0.515228
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX" 0.581718
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/DX_BUF" 0.00208671
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VSS" 0.352235
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/D2" 3.46272
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFL" 8.62382
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D5" 0.0164537
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/VSS" 0.00433815
+cap "3_bit_dac_0[1]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VSS" 1.13687e-13
+cap "3_bit_dac_0[0]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VREFL" 0.371584
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/DX" 5.53105
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/DX_" 0.519258
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" 0.449031
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/VSS" -1.54691
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFL" 6.65814
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VREFL" 0.641433
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 1.10818
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/DX" 0.20202
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VOUT" 1.73819
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/D7" 3.46588
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/VCC" 0.786041
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/DX_" 1.94665
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/D2" 14.4723
+cap "switch_n_3v3_0/DX_BUF" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 0.610606
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/DX_BUF" 0.0155447
+cap "switch_n_3v3_0/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 0.829678
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/VSS" 0.441083
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D7" 0.00204477
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/DX_" 0.749347
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VCC" 82.193
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/DX" -0.243358
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/DX_BUF" 4.05272
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/DX_" 0.00883789
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" -2.84217e-14
+cap "3_bit_dac_0[1]/switch_n_3v3_1/DX_" "switch_n_3v3_0/D2" 1.42109e-14
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "switch_n_3v3_0/DX" 2.50187
+cap "switch_n_3v3_0/D5" "switch_n_3v3_0/VREFL" 0.0119924
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VREFL" 8.96842
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/VSS" 0.853714
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/VSS" 0.210968
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VOUT" 0.00139361
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/DX" 3.71049
+cap "switch_n_3v3_0/VOUT" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 0.233785
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" -21.6126
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/D5" 0.00147243
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VSS" 6.83666
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VCC" 1.23534
+cap "switch_n_3v3_0/D6" "switch_n_3v3_0/VSS" 0.82467
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VCC" "switch_n_3v3_0/VOUT" 1.31544
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D4" 0.0121076
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" 0.401449
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/DX" 4.8312e-16
+cap "switch_n_3v3_0/DX_BUF" "switch_n_3v3_0/D2" 3.99679
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 0.0154004
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 7.92112
+cap "3_bit_dac_0[0]/D2_BUF" "switch_n_3v3_0/DX_BUF" 2.52426
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VCC" 0.00604464
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/VSS" 1.14517
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VREFL" 148.768
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "switch_n_3v3_0/VREFH" 0.0174923
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[0]/switch_n_3v3_1/VCC" 16.5068
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D2" 2.64922
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFH" "switch_n_3v3_0/VREFH" 2.1716
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/VCC" 14.124
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_0/VSS" 0.0233345
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/DX" 0.000188293
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D6" -0.405309
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VSS" -1.08775
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/D2" 1.73472e-18
+cap "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "switch_n_3v3_0/VREFH" 0.000277649
+cap "switch_n_3v3_0/D7" "switch_n_3v3_0/VSS" 1.53008
+cap "switch_n_3v3_0/D4" "switch_n_3v3_0/VREFL" 0.00628606
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VCC" -0.721686
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/D6" 0.001736
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 18.7774
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/DX" 0.000314269
+cap "switch_n_3v3_0/DX_" "switch_n_3v3_0/D2" 0.284557
+cap "switch_n_3v3_0/DX_" "3_bit_dac_0[0]/D2_BUF" 0.58133
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/VSS" 14.155
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VREFL" 0.463395
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VOUT" 1.16255
+cap "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VSS" -0.0238476
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VSS" 1.73408
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VCC" 0.0365985
+cap "switch_n_3v3_0/VOUT" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" 0.0743227
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFL" 2.0904
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[0]/switch_n_3v3_1/VREFL" 0.064246
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VSS" -0.0200255
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VOUT" 15.2171
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VREFL" 13.2566
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VOUT" 2.47029
+cap "switch_n_3v3_0/VREFH" "switch_n_3v3_0/VREFL" 2.84736
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/VSS" 12.6946
+cap "switch_n_3v3_0/VREFL" "switch_n_3v3_0/VSS" 0.760521
+cap "3_bit_dac_0[1]/D0" "3_bit_dac_0[1]/VREFL" -62.844
+cap "3_bit_dac_0[1]/D2" "3_bit_dac_0[1]/D1" -1.33164
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VCC" "switch_n_3v3_0/DX" 2.99025
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1]/D2" -3.38743
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" -0.644459
+cap "switch_n_3v3_0/D4" "3_bit_dac_0[1]/D2" -24.3017
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX" 11.4317
+cap "switch_n_3v3_0/DX" "switch_n_3v3_0/D4" 43.9394
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/D4" -3.38743
+cap "3_bit_dac_0[1]/D1" "3_bit_dac_0[1]/D2" -1.33164
+cap "switch_n_3v3_0/DX" "3_bit_dac_0[1]/D2" -15.6467
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/DX_" 0.371584
+cap "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" "switch_n_3v3_0/VREFH" 0.0174162
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/DX_BUF" 1.44318
+cap "3_bit_dac_0[1]/D2" "switch_n_3v3_0/DX" 1.29481
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 4.26228
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/VCC" 0.262526
+cap "switch_n_3v3_0/VOUT" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 0.222459
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 2.24226
+cap "switch_n_3v3_0/D2" "switch_n_3v3_0/VREFL" 0.180393
+cap "3_bit_dac_0[1]/switch_n_3v3_1/DX_" "switch_n_3v3_0/DX_" 2.43814
+cap "switch_n_3v3_0/VCC" "switch_n_3v3_0/D2" 2.80708
+cap "3_bit_dac_0[1]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VREFL" 0.451036
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/D2" 2.44284
+cap "3_bit_dac_0[1]/switch_n_3v3_1/DX_" "switch_n_3v3_0/VOUT" 0.282245
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/DX_" 4.00098
+cap "switch_n_3v3_0/VREFL" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 0.0179694
+cap "switch_n_3v3_0/VOUT" "switch_n_3v3_0/VREFL" 2.10168
+cap "switch_n_3v3_0/VCC" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 0.00334796
+cap "switch_n_3v3_0/VOUT" "3_bit_dac_0[1]/switch_n_3v3_1/VREFL" 0.465752
+merge "3_bit_dac_0[1]/VREFL" "VREFL" -51.3387 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7535 -384 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/switch_n_3v3_1/D7" "3_bit_dac_0[0]/switch_n_3v3_1/D7" -120.837 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7708 -704 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/switch_n_3v3_1/D7" "switch_n_3v3_0/m2_n6482_n991#"
+merge "switch_n_3v3_0/m2_n6482_n991#" "switch_n_3v3_0/D7"
+merge "switch_n_3v3_0/D7" "m2_5522_2840#"
+merge "3_bit_dac_0[1]/switch_n_3v3_1/VSS" "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VSS" -948.996 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7280 -384 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VSS" "3_bit_dac_0[0]/switch_n_3v3_1/VSS"
+merge "3_bit_dac_0[0]/switch_n_3v3_1/VSS" "switch_n_3v3_0/VSS"
+merge "switch_n_3v3_0/VSS" "3_bit_dac_0[1]/VSUBS"
+merge "3_bit_dac_0[1]/VSUBS" "3_bit_dac_0[0]/VSUBS"
+merge "3_bit_dac_0[0]/VSUBS" "VSUBS"
+merge "3_bit_dac_0[1]/VOUT" "3_bit_dac_0[1]/switch_n_3v3_1/VOUT" -332.21 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -900 -120 -1560 -164 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/switch_n_3v3_1/VOUT" "switch_n_3v3_0/VREFL"
+merge "switch_n_3v3_0/VREFL" "m1_6512_3708#"
+merge "3_bit_dac_0[0]/switch_n_3v3_1/D3" "D3_BUF" -313.577 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2106 -186 -6314 -602 0 0 0 0 0 0 0 0
+merge "D3_BUF" "switch_n_3v3_0/m2_n6802_n991#"
+merge "switch_n_3v3_0/m2_n6802_n991#" "switch_n_3v3_0/DX_BUF"
+merge "switch_n_3v3_0/DX_BUF" "m1_5191_2571#"
+merge "3_bit_dac_0[1]/switch_n_3v3_1/D4" "3_bit_dac_0[0]/switch_n_3v3_1/D4" -53.9404 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6560 -648 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/switch_n_3v3_1/D4" "switch_n_3v3_0/m2_n6722_n991#"
+merge "switch_n_3v3_0/m2_n6722_n991#" "switch_n_3v3_0/D4"
+merge "switch_n_3v3_0/D4" "m2_5282_2868#"
+merge "3_bit_dac_0[1]/switch_n_3v3_1/D5" "3_bit_dac_0[0]/switch_n_3v3_1/D5" -51.5883 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7011 -670 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/switch_n_3v3_1/D5" "switch_n_3v3_0/m2_n6642_n991#"
+merge "switch_n_3v3_0/m2_n6642_n991#" "switch_n_3v3_0/D5"
+merge "switch_n_3v3_0/D5" "m2_5362_2862#"
+merge "3_bit_dac_0[1]/switch_n_3v3_1/D6" "3_bit_dac_0[0]/switch_n_3v3_1/D6" -52.5039 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6765 -658 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/switch_n_3v3_1/D6" "switch_n_3v3_0/m2_n6562_n991#"
+merge "switch_n_3v3_0/m2_n6562_n991#" "switch_n_3v3_0/D6"
+merge "switch_n_3v3_0/D6" "m2_5442_2871#"
+merge "3_bit_dac_0[0]/D0_BUF" "D0_BUF" -46.3688 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5885 -324 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/VSS" "3_bit_dac_0[0]/VSS" -712.352 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -44404 -1714 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/VSS" "VSS"
+merge "VSS" "m2_144_1318#"
+merge "switch_n_3v3_0/VOUT" "VOUT" -204.612 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1521 -156 0 0 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/VCC" "3_bit_dac_0[1]/2_bit_dac_0[0]/VCC" -418.881 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41956 -1642 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/2_bit_dac_0[0]/VCC" "VCC"
+merge "VCC" "3_bit_dac_0[0]/VCC"
+merge "3_bit_dac_0[0]/VCC" "m2_42_2033#"
+merge "3_bit_dac_0[1]/D2_BUF" "3_bit_dac_0[0]/D2" -260.595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7626 -700 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/D2" "switch_n_3v3_0/m2_n6882_n991#"
+merge "switch_n_3v3_0/m2_n6882_n991#" "switch_n_3v3_0/D2"
+merge "switch_n_3v3_0/D2" "m2_5122_2862#"
+merge "3_bit_dac_0[0]/VOUT" "switch_n_3v3_0/VREFH" -213.13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -952 -124 -1064 -132 0 0 0 0 0 0 0 0
+merge "switch_n_3v3_0/VREFH" "m1_6908_2496#"
+merge "3_bit_dac_0[1]/D0" "D0" -52.142 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7645 -388 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/D1" "D1" -45.0692 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3444 -250 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/D2" "D2" -48.5934 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5084 -330 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1]/switch_n_3v3_1/D3" "D3" -182.843 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1521 -156 -3895 -436 0 0 0 0 0 0 0 0
+merge "D3" "switch_n_3v3_0/D3"
+merge "switch_n_3v3_0/D3" "switch_n_3v3_0/DX"
+merge "switch_n_3v3_0/DX" "m1_5191_3025#"
+merge "3_bit_dac_0[1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VCC" "switch_n_3v3_0/VCC" -646.256 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7280 -384 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/D2_BUF" "D2_BUF" -41.0692 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4182 -286 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/VREFH" "VREFH" -42.3521 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -5335 -304 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[0]/D1_BUF" "D1_BUF" -51.871 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3772 -266 0 0 0 0 0 0 0 0
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 17.1545
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 3.79375
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 17.2349
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/D2" 0.218683
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VOUT" "3_bit_dac_0[0:0]/VOUT" 0.0233137
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/switch_n_3v3_1/D7" 0.068986
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" 1.7053e-13
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/D0" 5.49643
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 0.148094
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" 0.190173
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" 0.0957149
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6562_n991#" 0.0139779
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 0.0554847
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/VSS" 18.2222
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 44.9508
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/VCC" 0.243478
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 0.614078
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 3.6531
+cap "3_bit_dac_0[0:0]/D1" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" 0.277228
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[0:0]/D0" 0.616597
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 4.72563
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/D0" 0.336425
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/D6" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 0.016297
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 4.10386
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/D5" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 0.016297
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6482_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/D7" 1.70691
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/switch_n_3v3_1/D4" 0.016297
+cap "3_bit_dac_0[0:0]/D1" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 5.60337
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" 0.49728
+cap "3_bit_dac_0[0:0]/D0" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 0.14807
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[0:0]/VSS" 12.2291
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/D0" 8.3879
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" "3_bit_dac_0[0:0]/D0" 12.0753
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/D1" 2.83894
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[0:0]/D0" 154.468
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 8.31782
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[0:0]/D0" 12.3395
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 5.38267
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/VSS" -1.13687e-13
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" 1.13794
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 511.485
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6562_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/D6" 1.70691
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6562_n991#" "3_bit_dac_0[0:0]/VCC" 0.139919
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6802_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" 0.0273895
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" 5.76623
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 10.1852
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 57.304
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 1.79844
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6642_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" 0.0139779
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 0.033752
+cap "3_bit_dac_0[0:0]/D1" "3_bit_dac_0[0:0]/VSS" 2.72725
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[0:0]/VSS" 1.18392
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 33.061
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/VSS" 24.6677
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/VCC" 4.54747e-13
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" 10.3593
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6482_n991#" 0.0139779
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFH" 0.00593561
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" -2.84217e-14
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 1.23361
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 1.87341
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 0.610606
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/D6" "3_bit_dac_0[0:0]/VSS" 0.068986
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" "3_bit_dac_0[0:0]/VSS" 0.556886
+cap "3_bit_dac_0[0:0]/D0" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 12.7749
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[0:0]/VSS" 1019.72
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/D5" "3_bit_dac_0[0:0]/VSS" 0.068986
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" 55.0581
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/switch_n_3v3_1/D4" 0.068986
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" 1.23663
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[0:0]/VSS" 2.65133
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 1.631
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/VOUT" 0.0310575
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/VCC" 1.04773
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6802_n991#" "3_bit_dac_0[0:0]/VCC" 0.139919
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 0.891966
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 0.48328
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 0.558566
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6642_n991#" "3_bit_dac_0[0:0]/VCC" 0.139919
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6642_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/D5" 1.70691
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" 0.106081
+cap "3_bit_dac_0[1:1]/D2_BUF" "3_bit_dac_0[0:0]/D2" 1.70691
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[0:0]/D2" 5.68434e-14
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" 0.128543
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" 4.86348
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6482_n991#" 0.139919
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 0.0181194
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D0" 0.189749
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/VCC" 4.54747e-13
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" "3_bit_dac_0[0:0]/D2" 0.0077444
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 2.54642
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VOUT" "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" 0.00936003
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6722_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" 0.0139779
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/VREFH" 4.00501
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 1.7053e-13
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" 1.05004
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" 1.09306
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 9.80542
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" 1.07037
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 0.168383
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D1" "3_bit_dac_0[0:0]/D1" 4.88008
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" 0.775335
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D1" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 0.352647
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 0.29255
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/VOUT" 0.254525
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/a_n6524_n498#" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" 0.197137
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 7.43035
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 0.415246
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 5.68434e-14
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/D0" 106.43
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/VSS" 2.84217e-14
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/D2_BUF" 0.0166435
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D1" "3_bit_dac_0[0:0]/VCC" 3.72083
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 0.0266452
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" 4.99711
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 26.1196
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/VCC" 6.13972
+cap "3_bit_dac_0[0:0]/D0" "3_bit_dac_0[0:0]/VSS" 5.07791
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" "3_bit_dac_0[0:0]/VSS" 1.14517
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" 0.0266452
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" 0.227564
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/D1" 2.37166
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 3.49053
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_L" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 3.68297
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/DX_" 0.145934
+cap "3_bit_dac_0[0:0]/VSS" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 0.441083
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6722_n991#" "3_bit_dac_0[0:0]/VCC" 0.139919
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VOUT" "3_bit_dac_0[0:0]/VCC" 0.0305872
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/R_H" -2.27374e-13
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6722_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/D4" 1.70691
+cap "3_bit_dac_0[0:0]/D1" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 1.05176
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/VREFH" 0.382409
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/D2" 0.0298859
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" "3_bit_dac_0[0:0]/VSS" 0.120185
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D1" 0.184662
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[0:0]/D1" 20.6924
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/switch_n_3v3_1/D7" 0.016297
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/D3" "3_bit_dac_0[0:0]/VSS" 0.0278381
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" 3.49888
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch2n_3v3_0/a_n6524_n498#" 0.408927
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" -1.13687e-13
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/VSS" 2.4836
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_L" 0.0967898
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 5.68434e-14
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/D0" "3_bit_dac_0[0:0]/VCC" 4.84723
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/m2_n6802_n991#" "3_bit_dac_0[0:0]/switch_n_3v3_1/D3" 1.59161
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/D2_BUF" 1.13532
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 0.00783537
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/R_H" 0.0369876
+cap "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[0:0]/VCC" 3.97428
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/D0" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFH" 1.64168
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[0:0]/D0" 25.2012
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFL" 0.133749
+cap "3_bit_dac_0[0:0]/VCC" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/VCC" 3.50581
+cap "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/DX_" "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch_n_3v3_v2_0/VREFH" 1.43316
+cap "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" "3_bit_dac_0[0:0]/switch_n_3v3_1/DX_" 0.0135889
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[1]/switch2n_3v3_0/VREFH" "3_bit_dac_0[1:1]/2_bit_dac_0[0]/switch_n_3v3_v2_0/VREFL" 10.2017
+cap "3_bit_dac_0[0:0]/switch_n_3v3_1/VREFL" "3_bit_dac_0[1:1]/switch_n_3v3_1/VREFH" 65.2748
+cap "3_bit_dac_0[0:0]/2_bit_dac_0[0]/VREFL" "3_bit_dac_0[0:0]/D0" 4.86908
+merge "3_bit_dac_0[1]/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1:1]/D0_BUF" "3_bit_dac_0[0:0]/D0" -311.491 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -104 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1:1]/VREFH" "3_bit_dac_0[0:0]/VREFL" -38.2296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110 0 0 0 0 0 0 0 0
+merge "3_bit_dac_0[1:1]/D1_BUF" "3_bit_dac_0[0:0]/D1" -31.3116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -82 0 0 0 0 0 0 0 0

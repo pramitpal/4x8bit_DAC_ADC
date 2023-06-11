@@ -1,0 +1,167 @@
+timestamp 1686240839
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use level_tx_1bit level_tx_1bit_0[0:7:1159][0:0:1793] 1 0 2042 0 1 -243
+node "DVSS" 0 138.533 0 105 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 26800 736 0 0 0 0 0 0
+node "VCCL" 0 78.2448 0 837 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17400 548 0 0 0 0 0 0
+node "VCC" 0 94.1289 0 1604 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16400 528 0 0 0 0 0 0
+node "VOUT7" 0 43.8524 9163 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3483 248 0 0 0 0 0 0 0 0
+node "VOUT6" 0 38.5659 8004 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3397 244 0 0 0 0 0 0 0 0
+node "VOUT5" 0 44.4534 6845 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4085 276 0 0 0 0 0 0 0 0
+node "VOUT4" 0 40.827 5686 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3741 260 0 0 0 0 0 0 0 0
+node "VOUT3" 0 42.53 4527 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3827 264 0 0 0 0 0 0 0 0
+node "VOUT2" 0 36.3047 3368 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3053 228 0 0 0 0 0 0 0 0
+node "VOUT1" 0 38.3419 2209 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3311 240 0 0 0 0 0 0 0 0
+node "VOUT0" 0 42.3806 1050 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3311 240 0 0 0 0 0 0 0 0
+node "VIN7" 0 33.6693 8151 1731 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2108 192 0 0 0 0 0 0 0 0
+node "VIN6" 0 31.5107 6992 1727 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0
+node "VIN5" 0 31.3977 5833 1727 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0
+node "VIN4" 0 30.7258 4674 1729 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2176 196 0 0 0 0 0 0 0 0
+node "VIN3" 0 31.5107 3515 1727 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2244 200 0 0 0 0 0 0 0 0
+node "VIN2" 0 30.8388 2356 1729 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2176 196 0 0 0 0 0 0 0 0
+node "VIN1" 0 30.5057 1197 1731 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2108 192 0 0 0 0 0 0 0 0
+node "VIN0" 0 31.6534 38 1737 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1904 180 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VCC" "VCCL" 16.2463
+cap "VIN2" "VIN3" 2.70042
+cap "VOUT7" "VOUT6" 3.35884
+cap "VOUT4" "VOUT3" 3.69898
+cap "VIN0" "VIN1" 2.36287
+cap "VIN5" "VIN4" 2.70042
+cap "VOUT2" "VOUT1" 3.01871
+cap "VOUT4" "VOUT5" 3.69898
+cap "VIN6" "VIN7" 2.61603
+cap "VIN5" "VIN6" 2.78481
+cap "VCC" "VIN0" 5.62299
+cap "VIN2" "VIN1" 2.61603
+cap "VCCL" "DVSS" 18.0843
+cap "VOUT2" "VOUT3" 3.01871
+cap "VCCL" "VIN0" 0.0760539
+cap "VOUT6" "VOUT5" 3.35884
+cap "VOUT0" "VOUT1" 3.27381
+cap "DVSS" "VIN0" 0.0153916
+cap "VIN3" "VIN4" 2.70042
+cap "level_tx_1bit_0[0]/VCCL" "level_tx_1bit_0[0]/DVSS" -18.0843
+cap "level_tx_1bit_0[0]/VCCL" "level_tx_1bit_0[0]/VCC" -8.12316
+cap "level_tx_1bit_0[0]/VOUT" "level_tx_1bit_0[1]/VOUT" -1.6369
+cap "level_tx_1bit_0[0]/VOUT" "level_tx_1bit_0[1]/VOUT" -1.6369
+cap "level_tx_1bit_0[1]/VOUT" "level_tx_1bit_0[2]/VOUT" -1.50935
+cap "level_tx_1bit_0[1]/VOUT" "level_tx_1bit_0[2]/VOUT" -1.50935
+cap "level_tx_1bit_0[2]/VOUT" "level_tx_1bit_0[3]/VOUT" -1.50935
+cap "level_tx_1bit_0[3]/VOUT" "level_tx_1bit_0[2]/VOUT" -1.50935
+cap "level_tx_1bit_0[3]/VOUT" "level_tx_1bit_0[4]/VOUT" -1.84949
+cap "level_tx_1bit_0[5]/VOUT" "level_tx_1bit_0[4]/VOUT" -3.69898
+cap "level_tx_1bit_0[6]/VOUT" "level_tx_1bit_0[5]/VOUT" -1.67942
+cap "level_tx_1bit_0[3]/VOUT" "level_tx_1bit_0[4]/VOUT" -1.84949
+cap "level_tx_1bit_0[5]/VOUT" "level_tx_1bit_0[6]/VOUT" -1.67942
+cap "level_tx_1bit_0[7]/VOUT" "level_tx_1bit_0[6]/VOUT" -1.67942
+cap "level_tx_1bit_0[6]/VOUT" "level_tx_1bit_0[7]/VOUT" -1.67942
+cap "level_tx_1bit_0[2]/VIN" "level_tx_1bit_0[1]/VIN" -1.30802
+cap "level_tx_1bit_0[1]/VIN" "level_tx_1bit_0[0]/VIN" -2.36287
+cap "level_tx_1bit_0[0]/DVSS" "level_tx_1bit_0[0]/VIN" -0.0153916
+cap "level_tx_1bit_0[0]/VCCL" "level_tx_1bit_0[0]/VIN" -0.0760539
+cap "level_tx_1bit_0[0]/VCCL" "level_tx_1bit_0[0]/VCC" -8.12316
+cap "level_tx_1bit_0[0]/VIN" "level_tx_1bit_0[0]/VCC" -5.62299
+cap "level_tx_1bit_0[2]/VIN" "level_tx_1bit_0[1]/VIN" -1.30802
+cap "level_tx_1bit_0[2]/VIN" "level_tx_1bit_0[3]/VIN" -1.35021
+cap "level_tx_1bit_0[4]/VIN" "level_tx_1bit_0[3]/VIN" -1.35021
+cap "level_tx_1bit_0[3]/VIN" "level_tx_1bit_0[2]/VIN" -1.35021
+cap "level_tx_1bit_0[5]/VIN" "level_tx_1bit_0[4]/VIN" -1.35021
+cap "level_tx_1bit_0[3]/VIN" "level_tx_1bit_0[4]/VIN" -1.35021
+cap "level_tx_1bit_0[6]/VIN" "level_tx_1bit_0[5]/VIN" -2.78481
+cap "level_tx_1bit_0[5]/VIN" "level_tx_1bit_0[4]/VIN" -1.35021
+cap "level_tx_1bit_0[7]/VIN" "level_tx_1bit_0[6]/VIN" -2.61603
+merge "level_tx_1bit_0[7]/DVSS" "level_tx_1bit_0[6]/DVSS" -138.533 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -26800 -736 0 0 0 0 0 0
+merge "level_tx_1bit_0[6]/DVSS" "level_tx_1bit_0[5]/DVSS"
+merge "level_tx_1bit_0[5]/DVSS" "level_tx_1bit_0[4]/DVSS"
+merge "level_tx_1bit_0[4]/DVSS" "level_tx_1bit_0[3]/DVSS"
+merge "level_tx_1bit_0[3]/DVSS" "level_tx_1bit_0[2]/DVSS"
+merge "level_tx_1bit_0[2]/DVSS" "level_tx_1bit_0[1]/DVSS"
+merge "level_tx_1bit_0[1]/DVSS" "level_tx_1bit_0[0]/DVSS"
+merge "level_tx_1bit_0[0]/DVSS" "VSUBS"
+merge "VSUBS" "DVSS"
+merge "level_tx_1bit_0[0]/VCCL" "VCCL" -78.2448 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -17400 -548 0 0 0 0 0 0
+merge "level_tx_1bit_0[5]/VOUT" "VOUT5" -44.4534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4085 -276 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[5]/VIN" "VIN5" -31.3977 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[4]/VOUT" "VOUT4" -40.827 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3741 -260 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[3]/VOUT" "VOUT3" -42.53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3827 -264 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[2]/VOUT" "VOUT2" -36.3047 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3053 -228 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[1]/VOUT" "VOUT1" -38.3419 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3311 -240 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[0]/VOUT" "VOUT0" -42.3806 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3311 -240 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[0]/VCC" "VCC" -94.1289 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16400 -528 0 0 0 0 0 0
+merge "level_tx_1bit_0[1]/VIN" "VIN1" -30.5057 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2108 -192 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[6]/VOUT" "VOUT6" -38.5659 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3397 -244 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[4]/VIN" "VIN4" -30.7258 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2176 -196 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[7]/VOUT" "VOUT7" -43.8524 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3483 -248 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[7]/VIN" "VIN7" -33.6693 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2108 -192 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[0]/VIN" "VIN0" -31.6534 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1904 -180 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[3]/VIN" "VIN3" -31.5107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[2]/VIN" "VIN2" -30.8388 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2176 -196 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[6]/VIN" "VIN6" -31.5107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2244 -200 0 0 0 0 0 0 0 0
+cap "level_tx_1bit_0[0:6]/VIN" "level_tx_1bit_0[1:7]/VIN" 24.4726
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[1:7]/VIN" 72.8906
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[0:6]/DVSS" 1.77636e-15
+cap "level_tx_1bit_0[1:7]/VIN" "level_tx_1bit_0[0:6]/VOUT" 122.554
+cap "level_tx_1bit_0[1:7]/a_n1600_540#" "level_tx_1bit_0[0:6]/VOUT" 3.71225
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[1:7]/a_n1428_490#" 2.57922
+cap "level_tx_1bit_0[0:6]/VOUT" "level_tx_1bit_0[0:6]/DVSS" 56.8682
+cap "level_tx_1bit_0[0:6]/a_n1810_540#" "level_tx_1bit_0[1:7]/a_n1428_490#" 1.87395
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[0:6]/VCCL" -4.54747e-13
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[1:7]/VOUT" 1.1105
+cap "level_tx_1bit_0[0:6]/VCCL" "level_tx_1bit_0[0:6]/VOUT" 28.5838
+cap "level_tx_1bit_0[1:7]/VOUT" "level_tx_1bit_0[0:6]/VOUT" 18.087
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[0:6]/VCC" 0.981657
+cap "level_tx_1bit_0[1:7]/a_n1428_490#" "level_tx_1bit_0[0:6]/VOUT" 11.9127
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[1:7]/VIN" -1.42109e-14
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[0:6]/DVSS" 0.697158
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[1:7]/a_n1428_490#" 0.791448
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[0:6]/a_n1600_540#" 2.09984
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[0:6]/VCCL" 0.047004
+cap "level_tx_1bit_0[1:7]/VIN" "level_tx_1bit_0[0:6]/DVSS" 0.612924
+cap "level_tx_1bit_0[0:6]/VIN" "level_tx_1bit_0[0:6]/VCC" 0.00302589
+cap "level_tx_1bit_0[1:7]/VIN" "level_tx_1bit_0[0:6]/a_n1600_540#" 1.34778
+cap "level_tx_1bit_0[1:7]/a_n1600_540#" "level_tx_1bit_0[0:6]/a_n1600_540#" 0.837359
+cap "level_tx_1bit_0[1:7]/VIN" "level_tx_1bit_0[0:6]/VCCL" 4.49493
+cap "level_tx_1bit_0[0:6]/VCC" "level_tx_1bit_0[0:6]/VOUT" 0.929719
+cap "level_tx_1bit_0[0:6]/VCCL" "level_tx_1bit_0[0:6]/DVSS" 0.47913
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[1:7]/a_n1810_540#" 0.51368
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[0:6]/a_n1810_540#" 24.1763
+cap "level_tx_1bit_0[0:6]/VCCL" "level_tx_1bit_0[0:6]/a_n1600_540#" 1.15492
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[1:7]/a_n1600_540#" 1.35931
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[1:7]/VIN" 11.3681
+cap "level_tx_1bit_0[1:7]/VIN" "level_tx_1bit_0[0:6]/a_n1810_540#" 37.7019
+cap "level_tx_1bit_0[0:6]/a_n1600_540#" "level_tx_1bit_0[1:7]/a_n1428_490#" 0.00470485
+cap "level_tx_1bit_0[0:6]/a_n1810_540#" "level_tx_1bit_0[0:6]/DVSS" 0.450568
+cap "level_tx_1bit_0[1:7]/a_n1600_540#" "level_tx_1bit_0[0:6]/a_n1810_540#" 5.85376
+cap "level_tx_1bit_0[0:6]/a_n1810_540#" "level_tx_1bit_0[0:6]/a_n1600_540#" 5.68434e-14
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[0:6]/VCCL" 0.29485
+cap "level_tx_1bit_0[0:6]/a_n1428_490#" "level_tx_1bit_0[1:7]/VOUT" 5.97222
+cap "level_tx_1bit_0[1:7]/a_n1810_540#" "level_tx_1bit_0[0:6]/VOUT" 8.48065
+cap "level_tx_1bit_0[0:6]/VCCL" "level_tx_1bit_0[0:6]/a_n1810_540#" 15.4716
+cap "level_tx_1bit_0[0:5]/a_n1810_540#" "level_tx_1bit_0[2:7]/VIN" 3.24269
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[0:5]/VCCL" 0.251696
+cap "level_tx_1bit_0[0:5]/DVSS" "level_tx_1bit_0[2:7]/VCCL" 0.0105443
+cap "level_tx_1bit_0[0:5]/VOUT" "level_tx_1bit_0[2:7]/VCCL" 5.0849
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[0:5]/a_n1600_540#" 0.0235653
+cap "level_tx_1bit_0[0:5]/VOUT" "level_tx_1bit_0[2:7]/a_n1810_540#" 1.68367
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[0:5]/a_n1428_490#" 0.856353
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[0:5]/VCC" 7.33132
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[0:5]/DVSS" 0.0295521
+cap "level_tx_1bit_0[0:5]/VOUT" "level_tx_1bit_0[2:7]/VIN" 20.7332
+cap "level_tx_1bit_0[2:7]/VCC" "level_tx_1bit_0[0:5]/VCC" 6.7079
+cap "level_tx_1bit_0[0:5]/a_n1810_540#" "level_tx_1bit_0[0:5]/VCCL" -1.13687e-13
+cap "level_tx_1bit_0[0:5]/a_n1810_540#" "level_tx_1bit_0[0:5]/a_n1600_540#" 5.68434e-14
+cap "level_tx_1bit_0[0:5]/a_n1810_540#" "level_tx_1bit_0[0:5]/DVSS" 0.0236266
+cap "level_tx_1bit_0[2:7]/VIN" "level_tx_1bit_0[2:7]/a_n1810_540#" -1.42109e-14
+cap "level_tx_1bit_0[0:5]/VOUT" "level_tx_1bit_0[0:5]/a_n1810_540#" -5.68434e-14
+cap "level_tx_1bit_0[0:5]/VOUT" "level_tx_1bit_0[0:5]/DVSS" 9.3713
+cap "level_tx_1bit_0[0:5]/a_n1810_540#" "level_tx_1bit_0[2:7]/VCCL" 0.203602
+cap "level_tx_1bit_0[0:5]/VCCL" "level_tx_1bit_0[2:7]/VCCL" 6.4277
+merge "level_tx_1bit_0[2]/DVSS" "level_tx_1bit_0[1]/DVSS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "level_tx_1bit_0[1]/DVSS" "VSUBS"
+merge "level_tx_1bit_0[1:7]/VCCL" "level_tx_1bit_0[0:6]/VCCL" -80.654 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 0 0 0 0 0 0
+merge "level_tx_1bit_0[1:7]/DVSS" "level_tx_1bit_0[0:6]/DVSS" -132.366 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 0 0 0 0 0 0
+merge "level_tx_1bit_0[1:7]/VCC" "level_tx_1bit_0[0:6]/VCC" -151.004 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -200 0 0 0 0 0 0

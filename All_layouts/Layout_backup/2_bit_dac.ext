@@ -1,0 +1,238 @@
+timestamp 1685863011
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use switch_n_3v3_v2 switch_n_3v3_v2_0 1 0 9520 0 1 722
+use switch2n_3v3 switch2n_3v3_0 1 0 7554 0 1 722
+node "m3_2716_38#" 0 166.192 2716 38 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46200 940 0 0 0 0 0 0
+node "VSS" 0 203.23 -408 38 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 72800 1320 0 0 0 0 0 0
+node "m3_2752_728#" 0 150.45 2752 728 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41160 868 0 0 0 0 0 0
+node "VCC" 0 210.674 -408 728 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73640 1332 0 0 0 0 0 0
+node "D1_BUF" 0 50.412 3038 -182 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4715 312 0 0 0 0 0 0 0 0
+node "D1" 0 58.1766 3038 910 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5576 354 0 0 0 0 0 0 0 0
+node "D0" 2 268.522 -252 366 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 55770 2138 0 0 0 0 0 0 0 0
+node "m1_2949_n144#" 6 875.079 2949 -144 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91518 4442 0 0 0 0 0 0 0 0 0 0
+node "VREFH" 1 173.623 -148 146 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13552 596 22350 916 0 0 0 0 0 0 0 0
+node "VREFL" 3 357.732 -154 252 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19690 826 42570 1768 0 0 0 0 0 0 0 0
+node "VOUT" 2 203.205 4032 878 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10348 592 14209 790 0 0 0 0 0 0 0 0
+node "m1_2946_762#" 6 742.528 2946 762 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76986 4026 0 0 0 0 0 0 0 0 0 0
+node "D0_BUF" 127 1403.01 2116 -61 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 27486 1126 132804 5016 20530 856 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VREFL" "D0" 421.14
+cap "VREFL" "VCC" 75.9937
+cap "D1_BUF" "m3_2752_728#" 0.0242792
+cap "D0" "D0_BUF" 12.7846
+cap "D0" "VREFH" 4.08098
+cap "D1" "VOUT" 0.859484
+cap "VCC" "D0_BUF" 0.439303
+cap "VREFL" "VSS" 32.9643
+cap "m1_2949_n144#" "VOUT" 11.2435
+cap "VCC" "VREFH" 2.27049
+cap "m3_2716_38#" "D0_BUF" 2.38404
+cap "D0_BUF" "m1_2949_n144#" 4.3529
+cap "D1_BUF" "D1" 1.97686
+cap "VSS" "D0_BUF" 73.2258
+cap "D1_BUF" "m3_2716_38#" 1.06696
+cap "D1_BUF" "m1_2949_n144#" 36.9005
+cap "VREFH" "VSS" 78.0113
+cap "m1_2946_762#" "m3_2752_728#" 17.3623
+cap "VREFL" "D0_BUF" 2.71138
+cap "VREFL" "VREFH" 88.3708
+cap "m1_2946_762#" "D1" 37.5722
+cap "m3_2716_38#" "m1_2946_762#" 0.430765
+cap "m1_2946_762#" "m1_2949_n144#" 48.5643
+cap "VREFH" "D0_BUF" 274.694
+cap "D1_BUF" "D0_BUF" 0.0078379
+cap "m3_2752_728#" "D1" 1.89081
+cap "m3_2716_38#" "m3_2752_728#" 34.5333
+cap "m3_2752_728#" "m1_2949_n144#" 0.307786
+cap "VCC" "D0" 77.852
+cap "D0" "VSS" 13.4698
+cap "m3_2716_38#" "D1" 0.0281899
+cap "m1_2946_762#" "VOUT" 188.604
+cap "m1_2949_n144#" "D1" 0.0213292
+cap "m3_2716_38#" "m1_2949_n144#" 13.8589
+cap "VCC" "VSS" 61.0794
+cap "D1_BUF" "m1_2946_762#" 0.0150283
+cap "m3_2752_728#" "VOUT" 0.00742364
+cap "switch2n_3v3_0/VSS" "switch2n_3v3_0/VREFL" -3.19565
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VSS" 162.423
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/VREFH" 7.77103
+cap "switch2n_3v3_0/VSS" "switch2n_3v3_0/a_n7536_n590#" 11.4375
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/R_H" 3.42042
+cap "switch2n_3v3_0/VCC" "switch2n_3v3_0/VREFL" 13.0289
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/a_n6524_n498#" 0.142415
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VCC" 0.0337
+cap "switch2n_3v3_0/VCC" "switch2n_3v3_0/a_n7536_n590#" -0.725529
+cap "switch2n_3v3_0/VSS" "switch2n_3v3_0/VCC" -16.4444
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/VREFL" 0.288298
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/DX_BUF" 26.2354
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/a_n7536_n590#" 0.576422
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/VREFL" -11.0985
+cap "switch2n_3v3_0/VREFH" "switch2n_3v3_0/VREFL" 30.7349
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/DX_BUF" 3.52878
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VREFH" 0.947018
+cap "switch2n_3v3_0/VREFH" "switch2n_3v3_0/a_n7536_n590#" -0.105653
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/a_n7536_n590#" 0.336289
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/VREFL" 54.105
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/R_H" 24.2009
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/VSS" -1.77314
+cap "switch2n_3v3_0/VSS" "switch2n_3v3_0/VREFH" -0.187889
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/a_n7536_n590#" 1.23155
+cap "switch2n_3v3_0/a_n6524_n498#" "switch2n_3v3_0/VREFL" 0.150728
+cap "switch2n_3v3_0/a_n6524_n498#" "switch2n_3v3_0/a_n7536_n590#" 0.0268071
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/VSS" 3.55271e-15
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/VCC" -1.2846
+cap "switch2n_3v3_0/VCC" "switch2n_3v3_0/VREFH" 2.04302
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VREFL" 63.3642
+cap "switch2n_3v3_0/a_n7536_n590#" "switch2n_3v3_0/VREFL" 3.17414
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/a_n7536_n590#" 6.16671
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/VCC" 0.185912
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/DX" 4.43857
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/a_n6524_n498#" 0.57579
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VREFL" 107.835
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/R_H" 0.0184042
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/VREFH" -0.100601
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VOUTL" 215.251
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/VREFL" -0.323224
+cap "switch_n_3v3_v2_0/VREFH" "switch2n_3v3_0/R_H" 0.00218118
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/DX_" 0.0352713
+cap "switch2n_3v3_0/VOUTL" "switch2n_3v3_0/VREFL" -0.175824
+cap "switch_n_3v3_v2_0/VCC" "switch2n_3v3_0/VREFH" 1.13687e-13
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/VREFH" 2.25847
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/DX" 0.364656
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/a_n6524_n498#" 14.6997
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/R_L" 0.425314
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/R_H" 0.0355573
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/DX" 0.172996
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/DX_BUF" 0.202126
+cap "switch2n_3v3_0/VOUTH" "switch2n_3v3_0/R_H" 3.55271e-15
+cap "switch2n_3v3_0/VREFL" "switch2n_3v3_0/a_n6524_n498#" -0.163789
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/R_L" 0.0176955
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VSS" 318.917
+cap "switch2n_3v3_0/VOUTL" "switch2n_3v3_0/a_n6524_n498#" -0.241722
+cap "switch2n_3v3_0/VOUTH" "switch_n_3v3_v2_0/VCC" 0.903062
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/VREFH" 33.6268
+cap "switch2n_3v3_0/VOUTL" "switch_n_3v3_v2_0/DX_BUF" 0.0087178
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/a_n6524_n498#" 0.0121008
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/R_L" 0.211531
+cap "switch2n_3v3_0/R_L" "switch2n_3v3_0/VREFH" -1.03417
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/R_H" 28.879
+cap "switch2n_3v3_0/DX" "switch2n_3v3_0/a_n6524_n498#" 0.016835
+cap "switch2n_3v3_0/VOUTL" "switch_n_3v3_v2_0/VSS" -1.5412
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/a_n6524_n498#" 0.00416858
+cap "switch2n_3v3_0/VOUTL" "switch2n_3v3_0/VREFH" -1.229
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/R_L" -12.3174
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VCC" 1.71299
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/DX" 0.0501324
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/VREFL" -1.14397
+cap "switch2n_3v3_0/VOUTH" "switch2n_3v3_0/DX_BUF" 0.189616
+cap "switch2n_3v3_0/VOUTL" "switch2n_3v3_0/R_H" -0.00585407
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/a_n6524_n498#" 1.13687e-13
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/R_L" 1.905
+cap "switch2n_3v3_0/VREFH" "switch2n_3v3_0/a_n6524_n498#" -0.0396868
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/R_H" 0.0311018
+cap "switch2n_3v3_0/VOUTH" "switch2n_3v3_0/VOUTL" -0.0121157
+cap "switch2n_3v3_0/R_H" "switch2n_3v3_0/a_n6524_n498#" 1.7053e-13
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/R_H" 1.11614
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/R_L" 35.8575
+cap "switch_n_3v3_v2_0/VCC" "switch2n_3v3_0/a_n6524_n498#" -1.13687e-13
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/VREFL" 0.354031
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VREFL" 0.811849
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VREFH" 1.68474
+cap "switch_n_3v3_v2_0/VCC" "switch2n_3v3_0/R_H" 32.8934
+cap "switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_v2_0/VCC" -0.0242792
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VCC" -24.7896
+cap "switch_n_3v3_v2_0/VREFL" "switch2n_3v3_0/DX_BUF" -0.0539146
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VREFH" 0.00578944
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/R_H" 1.25148
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/VREFH" 2.65614
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/R_H" 0.44947
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/DX_BUF" 12.6652
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VOUT" 0.0228558
+cap "switch_n_3v3_v2_0/VREFL" "switch_n_3v3_v2_0/VCC" 0.0799111
+cap "switch_n_3v3_v2_0/VCC" "switch_n_3v3_v2_0/VREFH" 285.159
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/a_n6524_n498#" 0.599517
+cap "switch_n_3v3_v2_0/VREFH" "switch2n_3v3_0/R_H" 0.0187034
+cap "switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_v2_0/VREFH" 1.96557
+cap "switch_n_3v3_v2_0/VREFL" "switch2n_3v3_0/R_H" 0.249396
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VREFL" 46.8712
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VREFH" 1.73002
+cap "switch_n_3v3_v2_0/VCC" "switch_n_3v3_v2_0/VOUT" 0.0966094
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/a_n6524_n498#" 0.0228899
+cap "switch_n_3v3_v2_0/VREFL" "switch_n_3v3_v2_0/DX_BUF" 419.778
+cap "switch2n_3v3_0/R_H" "switch_n_3v3_v2_0/VOUT" 0.0361569
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/DX_BUF" 17.815
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/VREFH" 0.0589228
+cap "switch_n_3v3_v2_0/VREFL" "switch_n_3v3_v2_0/VREFH" -28.7495
+cap "switch_n_3v3_v2_0/VREFH" "switch_n_3v3_v2_0/VOUT" 0.0949311
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/VREFL" 0.169541
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/R_L" 0.0073877
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/VCC" 28.1664
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/DX_BUF" -1.97686
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/R_H" 36.9945
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/DX" -0.0281899
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/VREFH" 3.7484
+cap "switch2n_3v3_0/VREFH" "switch2n_3v3_0/R_H" -1.42109e-14
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/DX_BUF" 0.548576
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/VREFH" 25.8992
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/a_n6524_n498#" 2.41937
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/VREFL" 1.19
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/VREFH" 40.0337
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/VOUT" 0.937644
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VCC" 0.287966
+cap "switch_n_3v3_v2_0/DX_" "switch2n_3v3_0/R_H" 8.15955
+cap "switch2n_3v3_0/VREFH" "switch_n_3v3_v2_0/VREFH" 0.00220834
+cap "switch2n_3v3_0/VREFH" "switch_n_3v3_v2_0/VOUT" 0.0023446
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/DX_" -1.13687e-13
+cap "switch_n_3v3_v2_0/VCC" "switch2n_3v3_0/DX_BUF" 6.73226
+cap "switch_n_3v3_v2_0/DX_BUF" "switch2n_3v3_0/DX_BUF" 2.41492
+cap "switch2n_3v3_0/DX_BUF" "switch2n_3v3_0/R_H" 0.0935622
+cap "switch_n_3v3_v2_0/VSS" "switch2n_3v3_0/DX_BUF" 1.16341
+cap "switch_n_3v3_v2_0/DX" "switch2n_3v3_0/R_L" 1.28206
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/VCC" 99.6645
+cap "switch2n_3v3_0/VREFH" "switch_n_3v3_v2_0/VREFL" 0.00113702
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VREFL" 22.661
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/DX_" 3.7551
+cap "switch_n_3v3_v2_0/DX" "switch_n_3v3_v2_0/VREFH" -0.0033748
+cap "switch2n_3v3_0/a_n6524_n498#" "switch_n_3v3_v2_0/VREFH" 0.00149189
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VREFH" 0.378423
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VCC" -0.00425118
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/VREFL" 43.829
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/VREFH" -0.79594
+cap "switch_n_3v3_v2_0/VCC" "switch_n_3v3_v2_0/VREFL" -1.83233
+cap "switch_n_3v3_v2_0/VCC" "switch_n_3v3_v2_0/VREFH" 40.901
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VREFL" 1.8829
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/DX" 0.872278
+cap "switch_n_3v3_v2_0/VOUT" "switch_n_3v3_v2_0/VSS" 0.0215535
+cap "switch_n_3v3_v2_0/DX_" "switch_n_3v3_v2_0/VREFH" 4.12461
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/VCC" -0.0605051
+cap "switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_v2_0/VREFL" 14.6217
+cap "switch2n_3v3_0/R_H" "switch_n_3v3_v2_0/VREFL" 0.248756
+cap "switch_n_3v3_v2_0/DX_BUF" "switch_n_3v3_v2_0/VREFH" 6.78678
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VREFL" 0.000157495
+cap "switch2n_3v3_0/R_H" "switch_n_3v3_v2_0/VREFH" 0.0012447
+cap "switch2n_3v3_0/DX_BUF" "switch_n_3v3_v2_0/VREFH" 0.00247668
+cap "switch_n_3v3_v2_0/VREFH" "switch_n_3v3_v2_0/VREFL" 131.446
+cap "switch2n_3v3_0/VREFH" "switch_n_3v3_v2_0/DX_BUF" 0.000637603
+cap "switch_n_3v3_v2_0/VSS" "switch_n_3v3_v2_0/DX_BUF" -0.00451813
+merge "switch_n_3v3_v2_0/VSS" "m3_2716_38#" -522.803 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -56420 -1646 0 0 0 0 0 0
+merge "m3_2716_38#" "switch2n_3v3_0/VSS"
+merge "switch2n_3v3_0/VSS" "VSUBS"
+merge "VSUBS" "VSS"
+merge "switch_n_3v3_v2_0/VREFL" "switch2n_3v3_0/VOUTL" -558.335 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -12510 -946 0 0 0 0 0 0 0 0 0 0
+merge "switch2n_3v3_0/VOUTL" "m1_2949_n144#"
+merge "switch2n_3v3_0/VREFL" "VREFL" -212.967 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1276 -146 0 0 0 0 0 0 0 0
+merge "switch_n_3v3_v2_0/VOUT" "VOUT" -134.973 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1521 -156 0 0 0 0 0 0 0 0 0 0
+merge "switch2n_3v3_0/VCC" "VCC" -374.156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -32900 -1030 0 0 0 0 0 0
+merge "VCC" "switch_n_3v3_v2_0/VCC"
+merge "switch_n_3v3_v2_0/VCC" "m3_2752_728#"
+merge "switch2n_3v3_0/DX_BUF" "D0_BUF" -476.339 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4644 -280 0 0 0 0 0 0 0 0 0 0 0 0
+merge "switch_n_3v3_v2_0/VREFH" "switch2n_3v3_0/VOUTH" -440.106 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11119 -858 0 0 0 0 0 0 0 0 0 0
+merge "switch2n_3v3_0/VOUTH" "m1_2946_762#"
+merge "switch2n_3v3_0/DX" "D0" -62.046 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4070 -258 0 0 0 0 0 0 0 0
+merge "switch_n_3v3_v2_0/DX" "D1" -132.242 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2009 -180 0 0 0 0 0 0 0 0
+merge "switch2n_3v3_0/a_n7536_n590#" "VREFH" -70.4057 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -3248 -228 0 0 0 0 0 0 0 0 0 0
+merge "switch_n_3v3_v2_0/DX_BUF" "D1_BUF" -224.331 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2911 -224 0 0 0 0 0 0 0 0
