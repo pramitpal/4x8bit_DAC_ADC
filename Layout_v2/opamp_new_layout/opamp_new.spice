@@ -1,0 +1,57 @@
+* SPICE3 file created from opamp_new.ext - technology: sky130A
+
+.subckt opamp_new VDDA VIN VOUT VSSA
+X0 VSSA a_1115_n46# a_1115_n46# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=0.5
+X1 VDDA a_946_92# m1_1905_n425# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=1
+X2 m1_2418_n466# a_946_92# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=1
+X3 li_1710_1095# VOUT m1_1457_250# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.74 pd=13.2 as=1.16 ps=8.58 w=4 l=1
+X4 li_1788_7# VIN li_1710_1095# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=0 ps=0 w=4 l=1
+X5 VDDA a_946_92# a_946_92# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.6 w=8 l=1
+X6 a_1115_n46# a_946_92# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=16.6 as=1.16 ps=8.29 w=8 l=1
+X7 li_1788_7# a_1115_n46# VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=0.5
+X8 VSSA a_1115_n46# m1_1457_250# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=0.5
+X9 a_3576_n60# a_3015_n299# VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=7.42 ps=55.9 w=2 l=0.5
+X10 VSSA a_3015_n299# a_3015_n299# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0 pd=0 as=0.58 ps=4.58 w=2 l=0.5
+X11 VDDA a_2216_92# a_2216_92# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=13.3 pd=96.1 as=2.32 ps=16.6 w=8 l=1
+X12 a_3576_82# a_2216_92# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=16.6 as=0 ps=0 w=8 l=1
+X13 a_3576_n60# a_1350_114# m1_2418_n466# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X14 a_3015_n299# a_1350_114# m1_1905_n425# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=1.74 ps=13.2 w=2 l=0.5
+X15 VSSA a_1115_n46# m1_2160_n380# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X16 VDDA a_3576_82# VOUT VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=2.32 pd=16.6 as=1.16 ps=8.29 w=8 l=1
+X17 VDDA a_3576_82# VOUT VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=1.16 ps=8.29 w=8 l=1
+X18 VOUT a_3576_82# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=1.16 ps=8.29 w=8 l=1
+X19 VOUT a_3576_82# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.6 w=8 l=1
+X20 VOUT a_3576_n60# VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=1
+X21 VSSA a_3576_n60# VOUT VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=1
+X22 VOUT a_3576_n60# VSSA VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=1
+X23 VSSA a_3576_n60# VOUT VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=1
+X24 VDDA a_946_92# li_1710_1095# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+X25 m1_2160_n380# VOUT m1_1905_n425# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.29 as=0.58 ps=4.58 w=2 l=1
+X26 m1_2418_n466# VIN m1_2160_n380# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.29 ps=2.29 w=2 l=1
+X27 VSSA a_946_92# VSSA sky130_fd_pr__res_generic_nd__hv w=0.42 l=16.1
+X28 a_1350_114# VSSA VSSA sky130_fd_pr__res_generic_nd__hv w=0.48 l=4.46
+X29 VDDA a_1350_114# VSSA sky130_fd_pr__res_generic_nd__hv w=0.42 l=8.32
+X30 li_1788_7# a_1350_114# a_3576_82# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.5
+X31 m1_1457_250# a_1350_114# a_2216_92# VSSA sky130_fd_pr__nfet_g5v0d10v5 ad=1.16 pd=9.16 as=0.58 ps=4.58 w=2 l=0.5
+.ends
+
+X1 VDDA VIN VOUT VSSA opamp_new
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+V1 VSSA 0 dc 0
+V2 VDDA 0 dc 3.3
+
+V3 VIN 0 sin(1.65 1.8 100)
+
+.tran 0.1m 10m
+.control
+run
+plot VIN VOUT
+.endc
+.end
