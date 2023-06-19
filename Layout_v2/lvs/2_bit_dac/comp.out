@@ -1,0 +1,5 @@
+
+Cells have no pins;  pin matching not needed.
+Device classes 2_bit_dac_post.spice and 2_bit_dac.spice are equivalent.
+
+Final result: Verify:  cell 2_bit_dac.spice has no elements and/or nodes.  Not checked.
