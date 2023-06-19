@@ -1,46 +1,33 @@
 # 4x8bit_dac
 4 x 8 Bit DAC taget to openroad/openlane flow and sky130 foundary
+This analog layout part is done using https://github.com/iic-jku/iic-osic-tools docker container.
+
+This environment is based on the efabless.com FOSS-ASIC-TOOLS.
+
+IIC-OSIC-TOOLS is an all-in-one Docker container for open-source-based integrated circuit designs for analog and digital circuit flows.
 
 # Prerequisites
 ```bash
-   #Step-1: Installing Klayout
-   sudo apt-get install  klayout
+   #Step-1: Installing Docker in WSL2 Ubuntu
+   sudo apt update
+   sudo apt install docker.io -y
 
-   #Step-2: To install Sky130nm PDK
-    A. Add/Set following  Enviornment variable 
-       export PDK_ROOT=<PDK Installation folder> 
-       export PDK=sky130A
-    B. Clone Openlane : 
-       git clone https://github.com/efabless/OpenLane.git
-       cd Openlane
-       make pdk
-
-   #Step-3: Installing ngspice from source code
-    git clone git://git.code.sf.net/p/ngspice/ngspice
-    cd ngspice
-    ./autogen.sh
-    mkdir debug
-    cd debug
-    ../configure --with-x --with-readline=yes
-    make
-    sudo make install
-
-   #Step-4: To clone the Skywater PDK Library for ngsim
-     git clone https://github.com/google/skywater-pdk-libs-sky130_fd_pr
-
-   #Step-5: Install the ESim
-     https://esim.fossee.in/downloads
-     https://static.fossee.in/esim/installation-files/eSim-2.3.zip
-     unzip eSim-2.3.zip
-     cd eSim-2.3
-     chmod +x install-eSim.sh
-     sudo /install-eSim.sh --install
 ```
-# Extract Spice
-```bash
-   cd PostLayoutSimulation
-   ./run_extract_spice
+Next check the docker version 
 ```
+   docker --version
+```
+Then modify the visudo file
+```
+   sudo visudo
+```
+In which enter these 
+```
+   # Docker daemon specification
+   pramit ALL=(ALL) NOPASSWD: /usr/bin/dockerd
+```
+You can replace pramit with your username
+
 
 # Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
 ```bash
