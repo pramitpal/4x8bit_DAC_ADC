@@ -1,5 +1,8 @@
 # 4x8bit_dac
 4 x 8 Bit DAC taget to openroad/openlane flow and sky130 foundary
+| ![dac_top.jpg](Layout_v2/gds/dac_top.png) | 
+|:--:| 
+| *4 x 8_bit_DAC (dac_top.gds)* |
 This analog layout part is done using https://github.com/iic-jku/iic-osic-tools docker container.
 
 This environment is based on the efabless.com FOSS-ASIC-TOOLS.
