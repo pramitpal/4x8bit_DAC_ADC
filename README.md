@@ -62,7 +62,8 @@ But the recommended way is to connect to the server using TigerVNC viwer.
 which can be downloaded from https://sourceforge.net/projects/tigervnc/files/latest/download.
 
 Connection screen of TigerVNC viewer 
-![image](https://github.com/pramitpal/8bit_dac/assets/41202066/d36cb5ab-0c4d-478b-b61b-0a977eeb7c1f)
+
+<img src="https://github.com/pramitpal/8bit_dac/assets/41202066/d36cb5ab-0c4d-478b-b61b-0a977eeb7c1f" height="125">
 
 The benefit of using this container is the easy and quick setup. Moreover it has tons of latest installed packages and pdks. Which would take a lot of time if installed locally, one after another.
 
