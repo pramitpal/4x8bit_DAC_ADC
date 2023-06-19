@@ -26,7 +26,41 @@ In which enter these
    # Docker daemon specification
    pramit ALL=(ALL) NOPASSWD: /usr/bin/dockerd
 ```
-You can replace pramit with your username
+You can replace pramit with your username.
+Then adding some text to ~/.bashrc file.
+```
+   nano ~/.bashrc
+```
+Add these to the end of the file.
+```
+# Start Docker daemon automatically when logging in if not running.
+RUNNING=`ps aux | grep dockerd | grep -v grep`
+if [ -z "$RUNNING" ]; then
+    sudo dockerd > /dev/null 2>&1 &
+    disown
+fi
+```
+Then add your username to docker group so you can run docker as a non-root user.
+```
+   sudo usermod -aG docker $USER
+```
+Then restart WSL terminal to check if docker is successfully installed using ``docker run hello-world``, it should print a Hello World message, after which it is done.
+
+# Pulling and setting up Docker image using a script
+Download a script file from this link https://raw.githubusercontent.com/iic-jku/iic-osic-tools/main/start_vnc.sh which is ``start_vnc.sh``
+
+Now to setup our personal design directory, which will be the directory shared between us and the docker container by editing the ``start_vnc.sh`` file as follows.
+
+Now we are ready to start the script by 
+```
+./start_vnc.sh
+```
+After the image is pulled successfully a VNC server will be started at ``localhost:5901`` with password ``abc123``.
+We can connect to this server via any web browser by going to http://localhost/?password=abc123.
+But the recommended way is to connect to the server using TigerVNC viwer.
+which can be downloaded from https://sourceforge.net/projects/tigervnc/files/latest/download.
+
+The benefit of using this container is the easy and quick setup. Moreover it has tons of latest installed packages and pdks. Which would take a lot of time if installed locally, one after another.
 
 
 # Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
