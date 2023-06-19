@@ -1,5 +1,6 @@
 # 4x8bit_dac
-4 x 8 Bit DAC taget to openroad/openlane flow and sky130 foundary
+4 x 8 Bit DAC taget to openroad/openlane flow and sky130 foundry. The latest Layouts and spice files can be found in [Layout_v2](https://github.com/pramitpal/8bit_dac/tree/main/Layout_v2) directory.
+
 | ![dac_top.jpg](Layout_v2/gds/dac_top.png) | 
 |:--:| 
 | *4 x 8_bit_DAC (dac_top.gds)* |
