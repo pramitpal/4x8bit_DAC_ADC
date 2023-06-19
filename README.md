@@ -50,6 +50,7 @@ Then restart WSL terminal to check if docker is successfully installed using ``d
 Download a script file from this link https://raw.githubusercontent.com/iic-jku/iic-osic-tools/main/start_vnc.sh which is ``start_vnc.sh``
 
 Now to setup our personal design directory, which will be the directory shared between us and the docker container by editing the ``start_vnc.sh`` file as follows.
+![image](https://github.com/pramitpal/8bit_dac/assets/41202066/465a61ab-4817-4309-8c28-84b9055796bc)
 
 Now we are ready to start the script by 
 ```
@@ -59,6 +60,9 @@ After the image is pulled successfully a VNC server will be started at ``localho
 We can connect to this server via any web browser by going to http://localhost/?password=abc123.
 But the recommended way is to connect to the server using TigerVNC viwer.
 which can be downloaded from https://sourceforge.net/projects/tigervnc/files/latest/download.
+
+Connection screen of TigerVNC viewer 
+![image](https://github.com/pramitpal/8bit_dac/assets/41202066/d36cb5ab-0c4d-478b-b61b-0a977eeb7c1f)
 
 The benefit of using this container is the easy and quick setup. Moreover it has tons of latest installed packages and pdks. Which would take a lot of time if installed locally, one after another.
 
