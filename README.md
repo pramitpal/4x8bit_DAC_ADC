@@ -109,6 +109,7 @@ lef write <filename.lef> -hide
 ```
 A correct lef file screenshot is shown below.
 
+![image](https://github.com/pramitpal/8bit_dac/assets/41202066/ec788ab4-58e7-4176-83c9-9282f04ccbe5)
 
 
 # Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
