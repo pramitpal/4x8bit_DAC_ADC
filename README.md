@@ -72,6 +72,44 @@ Connection screen of TigerVNC viewer
 
 The benefit of using this container is the easy and quick setup. Moreover it has tons of latest installed packages and pdks. Which would take a lot of time if installed locally, one after another.
 
+# Generation of lef files from the layout
+To generate the .lef files, all the labels in the layout must be made to ports with the port index, class and use properly set.
+To make and change a label
+```
+label <name> <direction(n/s/e/w)> <layer>
+```
+To erase a label
+```
+erase label
+```
+Now to convert a label to a port with the index, class and use
+```
+port make <port_index>
+port class <class>
+port use <use>
+```
+where the valid classes can be: __default, input, output, tristate, bidirectional, inout, feedthrough, and feedthru__
+
+The valid uses can be : __default, analog, signal, digital, power, ground, and clock__
+
+To set a port to be used as an input we have used 
+``port class input`` and ``port use signal``.
+
+To set a port to be used as a ground ``port class inout`` and ``port use ground``
+
+To use as a power port ``port class inout`` and ``port use power``.
+
+To set a port as an output port, ``port class output`` and ``port use signal`` are used.
+
+These settings ensure that each of these ports/pins appear correctly in the extracted .lef files.
+
+To extract .lef files from magic after setting all the ports use
+```
+lef write <filename.lef> -hide
+```
+A correct lef file screenshot is shown below.
+
+
 
 # Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
 ```bash
