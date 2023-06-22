@@ -111,6 +111,28 @@ A correct lef file screenshot is shown below.
 
 <img src="https://github.com/pramitpal/8bit_dac/assets/41202066/ec788ab4-58e7-4176-83c9-9282f04ccbe5" height="400">
 
+# Running LVS check on the layout and the schematic file
+In order to generate the netlist from xschem for running lvs, ``LVS netlist: Top level is a .subckt`` must be checked before netlist extraction. This can be found under the simulation dropdown menu. Now we have generated the prelayout spice netlist.
+
+To generate the post-layout netlist, we will be needing magic. The extraction commands must be run properly to ensure a lvs type netlist is generated with .subckt in the file.
+```
+select top cell
+extract all
+ext2spice lvs
+```
+Before continuing it must be ensured that both the top level subckt has the same name.
+
+Now lvs check is done by netgen which is done by
+```
+netgen -batch lvs "$NETLIST_LAY $TOPCELL" "$NETLIST_SCH $TOPCELL" \
+		"$PDK_ROOT/$PDK/libs.tech/netgen/${PDK}_setup.tcl" \
+		"$LVS_REPORT" > "$LVS_LOG"
+```
+Moreover LVS check can be done using a premade script present in the docker container already setup. To run it in a directory the layout file, either .mag or .gds must be present along with the schematic(.sch) file but both of them must have the same cellname.
+```
+iic-lvs.sh <cellname>
+```
+The output report is stored in the current directory itself.
 # Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
 ```bash
    cd PostLayout
