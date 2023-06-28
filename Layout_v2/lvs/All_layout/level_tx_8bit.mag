@@ -1,0 +1,9 @@
+magic
+tech sky130A
+timestamp 1687027365
+use level_tx_1bit  level_tx_1bit_0
+array 0 7 340 0 0 775
+timestamp 1687027365
+transform 1 0 800 0 1 -215
+box -790 235 -450 1010
+<< end >>

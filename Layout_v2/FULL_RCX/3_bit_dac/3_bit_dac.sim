@@ -1,0 +1,144 @@
+| units: 500000 tech: sky130A format: MIT
+x a_572_1645# 2_bit_dac_0[1].switch2n_3v3_0.VREFH 2_bit_dac_0[1].switch2n_3v3_0.R_H VSS s=8652,374 d=8652,374 l=420 w=84 x=572 y=1645 sky130_fd_pr__res_generic_nd__hv
+x D0 VSS a_1438_1634# VSS s=5800,316 d=5800,316 l=100 w=100 x=1338 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D0 VCC a_1438_406# VCC s=11600,516 d=11600,516 l=100 w=200 x=1338 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x a_1438_406# VCC D0_BUF VCC s=11600,516 d=11600,516 l=100 w=200 x=1626 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ 2_bit_dac_0[0].VOUT 2_bit_dac_0[0].switch2n_3v3_0.VOUTH VCC s=11600,516 d=11600,516 l=100 w=200 x=4638 y=654 sky130_fd_pr__pfet_g5v0d10v5
+x a_1438_1634# VSS 2_bit_dac_0[0].D0 VSS s=5800,316 d=5800,316 l=100 w=100 x=1626 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x D0_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTL 2_bit_dac_0[1].VREFH VCC s=11600,516 d=11600,516 l=100 w=200 x=2300 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x a_1438_406# 2_bit_dac_0[0].switch2n_3v3_0.R_H 2_bit_dac_0[0].switch2n_3v3_0.VOUTH VSS s=5800,316 d=5800,316 l=100 w=100 x=2704 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x a_870_1651# 2_bit_dac_0[1].switch2n_3v3_0.R_L VREFL VSS s=8652,374 d=8652,374 l=420 w=84 x=870 y=1651 sky130_fd_pr__res_generic_nd__hv
+x D1 VCC 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ VCC s=11600,516 d=11600,516 l=100 w=200 x=3670 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[0].D1 2_bit_dac_0[1].switch2n_3v3_0.VOUTH 2_bit_dac_0[1].VOUT VSS s=5800,316 d=5800,316 l=100 w=100 x=4330 y=1646 sky130_fd_pr__nfet_g5v0d10v5
+x switch_n_3v3_1.DX_ VOUT 2_bit_dac_0[1].VOUT VSS s=5800,316 d=5800,316 l=100 w=100 x=6596 y=1646 sky130_fd_pr__nfet_g5v0d10v5
+x D0_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTH 2_bit_dac_0[0].switch2n_3v3_0.R_H VCC s=11600,516 d=11600,516 l=100 w=200 x=3048 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ 2_bit_dac_0[1].VOUT 2_bit_dac_0[1].switch2n_3v3_0.VOUTH VCC s=11600,516 d=11600,516 l=100 w=200 x=4638 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x a_1438_406# 2_bit_dac_0[1].VREFH 2_bit_dac_0[0].switch2n_3v3_0.VOUTL VSS s=5800,316 d=5800,316 l=100 w=100 x=1958 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D0 2_bit_dac_0[1].switch2n_3v3_0.VOUTH 2_bit_dac_0[1].switch2n_3v3_0.VREFH VSS s=5800,316 d=5800,316 l=100 w=100 x=3048 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ 2_bit_dac_0[0].VOUT 2_bit_dac_0[0].switch2n_3v3_0.VOUTL VSS s=5800,316 d=5800,316 l=100 w=100 x=4638 y=418 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D0 2_bit_dac_0[1].switch2n_3v3_0.VOUTL VREFL VCC s=11600,516 d=11600,516 l=100 w=200 x=2300 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[0].D1 VSS 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ VSS s=5800,316 d=5800,316 l=100 w=100 x=3670 y=416 sky130_fd_pr__nfet_g5v0d10v5
+x a_1438_1634# 2_bit_dac_0[1].switch2n_3v3_0.VREFH 2_bit_dac_0[1].switch2n_3v3_0.VOUTH VCC s=11600,516 d=11600,516 l=100 w=200 x=2704 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ VCC 2_bit_dac_0[0].D1 VCC s=11600,516 d=11600,516 l=100 w=200 x=3978 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ 2_bit_dac_0[1].VOUT 2_bit_dac_0[1].switch2n_3v3_0.VOUTL VSS s=5800,316 d=5800,316 l=100 w=100 x=4638 y=1646 sky130_fd_pr__nfet_g5v0d10v5
+x switch_n_3v3_1.DX_ VSS D2_BUF VSS s=5800,316 d=5800,316 l=100 w=100 x=5936 y=1644 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ VCC D1_BUF VCC s=11600,516 d=11600,516 l=100 w=200 x=3978 y=654 sky130_fd_pr__pfet_g5v0d10v5
+x D2 VCC switch_n_3v3_1.DX_ VCC s=11600,516 d=11600,516 l=100 w=200 x=5628 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x a_572_417# 2_bit_dac_0[0].switch2n_3v3_0.VREFH 2_bit_dac_0[0].switch2n_3v3_0.R_H VSS s=8652,374 d=8652,374 l=420 w=84 x=572 y=417 sky130_fd_pr__res_generic_nd__hv
+x a_716_423# 2_bit_dac_0[0].switch2n_3v3_0.R_H 2_bit_dac_0[0].switch2n_3v3_0.R_L VSS s=8652,374 d=8652,374 l=420 w=84 x=716 y=423 sky130_fd_pr__res_generic_nd__hv
+x a_1438_1634# 2_bit_dac_0[1].switch2n_3v3_0.R_L 2_bit_dac_0[1].switch2n_3v3_0.VOUTL VCC s=11600,516 d=11600,516 l=100 w=200 x=1958 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x D0 VCC a_1438_1634# VCC s=11600,516 d=11600,516 l=100 w=200 x=1338 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x D2_BUF 2_bit_dac_0[1].VOUT VOUT VCC s=11600,516 d=11600,516 l=100 w=200 x=6288 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x a_870_423# 2_bit_dac_0[0].switch2n_3v3_0.R_L 2_bit_dac_0[1].VREFH VSS s=8652,374 d=8652,374 l=420 w=84 x=870 y=423 sky130_fd_pr__res_generic_nd__hv
+x 2_bit_dac_0[0].D0 VSS a_1438_406# VSS s=5800,316 d=5800,316 l=100 w=100 x=1338 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x a_1438_406# VSS D0_BUF VSS s=5800,316 d=5800,316 l=100 w=100 x=1626 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x D1_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTL 2_bit_dac_0[0].VOUT VCC s=11600,516 d=11600,516 l=100 w=200 x=4330 y=654 sky130_fd_pr__pfet_g5v0d10v5
+x a_1438_1634# VCC 2_bit_dac_0[0].D0 VCC s=11600,516 d=11600,516 l=100 w=200 x=1626 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x D0_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTL 2_bit_dac_0[0].switch2n_3v3_0.R_L VSS s=5800,316 d=5800,316 l=100 w=100 x=2300 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x a_716_1651# 2_bit_dac_0[1].switch2n_3v3_0.R_H 2_bit_dac_0[1].switch2n_3v3_0.R_L VSS s=8652,374 d=8652,374 l=420 w=84 x=716 y=1651 sky130_fd_pr__res_generic_nd__hv
+x D1 VSS 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ VSS s=5800,316 d=5800,316 l=100 w=100 x=3670 y=1644 sky130_fd_pr__nfet_g5v0d10v5
+x a_1438_406# 2_bit_dac_0[0].switch2n_3v3_0.VREFH 2_bit_dac_0[0].switch2n_3v3_0.VOUTH VCC s=11600,516 d=11600,516 l=100 w=200 x=2704 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x D2_BUF 2_bit_dac_0[0].VOUT VOUT VSS s=5800,316 d=5800,316 l=100 w=100 x=6288 y=1646 sky130_fd_pr__nfet_g5v0d10v5
+x D0_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTH 2_bit_dac_0[0].switch2n_3v3_0.VREFH VSS s=5800,316 d=5800,316 l=100 w=100 x=3048 y=406 sky130_fd_pr__nfet_g5v0d10v5
+x a_426_417# 2_bit_dac_0[0].switch2n_3v3_0.VREFH VREFH VSS s=8652,374 d=8652,374 l=420 w=84 x=426 y=417 sky130_fd_pr__res_generic_nd__hv
+x a_1438_406# 2_bit_dac_0[0].switch2n_3v3_0.R_L 2_bit_dac_0[0].switch2n_3v3_0.VOUTL VCC s=11600,516 d=11600,516 l=100 w=200 x=1958 y=644 sky130_fd_pr__pfet_g5v0d10v5
+x a_426_1645# 2_bit_dac_0[1].switch2n_3v3_0.VREFH 2_bit_dac_0[1].VREFH VSS s=8652,374 d=8652,374 l=420 w=84 x=426 y=1645 sky130_fd_pr__res_generic_nd__hv
+x D1_BUF 2_bit_dac_0[0].switch2n_3v3_0.VOUTH 2_bit_dac_0[0].VOUT VSS s=5800,316 d=5800,316 l=100 w=100 x=4330 y=418 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D0 2_bit_dac_0[1].switch2n_3v3_0.VOUTH 2_bit_dac_0[1].switch2n_3v3_0.R_H VCC s=11600,516 d=11600,516 l=100 w=200 x=3048 y=1872 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[0].D0 2_bit_dac_0[1].switch2n_3v3_0.VOUTL 2_bit_dac_0[1].switch2n_3v3_0.R_L VSS s=5800,316 d=5800,316 l=100 w=100 x=2300 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x a_1438_1634# 2_bit_dac_0[1].switch2n_3v3_0.R_H 2_bit_dac_0[1].switch2n_3v3_0.VOUTH VSS s=5800,316 d=5800,316 l=100 w=100 x=2704 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ VSS 2_bit_dac_0[0].D1 VSS s=5800,316 d=5800,316 l=100 w=100 x=3978 y=1644 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D1 VCC 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ VCC s=11600,516 d=11600,516 l=100 w=200 x=3670 y=654 sky130_fd_pr__pfet_g5v0d10v5
+x switch_n_3v3_1.DX_ VCC D2_BUF VCC s=11600,516 d=11600,516 l=100 w=200 x=5936 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ VSS D1_BUF VSS s=5800,316 d=5800,316 l=100 w=100 x=3978 y=416 sky130_fd_pr__nfet_g5v0d10v5
+x D2 VSS switch_n_3v3_1.DX_ VSS s=5800,316 d=5800,316 l=100 w=100 x=5628 y=1644 sky130_fd_pr__nfet_g5v0d10v5
+x a_1438_1634# VREFL 2_bit_dac_0[1].switch2n_3v3_0.VOUTL VSS s=5800,316 d=5800,316 l=100 w=100 x=1958 y=1634 sky130_fd_pr__nfet_g5v0d10v5
+x 2_bit_dac_0[0].D1 2_bit_dac_0[1].switch2n_3v3_0.VOUTL 2_bit_dac_0[1].VOUT VCC s=11600,516 d=11600,516 l=100 w=200 x=4330 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+x switch_n_3v3_1.DX_ VOUT 2_bit_dac_0[0].VOUT VCC s=11600,516 d=11600,516 l=100 w=200 x=6596 y=1882 sky130_fd_pr__pfet_g5v0d10v5
+R 2_bit_dac_0[0].switch2n_3v3_0.VOUTH 4643
+= 2_bit_dac_0[0].switch2n_3v3_0.VOUTH 2_bit_dac_0[0].switch_n_3v3_v2_0.VREFH
+R 2_bit_dac_0[0].switch2n_3v3_0.VOUTL 4615
+= 2_bit_dac_0[0].switch2n_3v3_0.VOUTL 2_bit_dac_0[0].switch_n_3v3_v2_0.VREFL
+R a_870_423# 570
+R D1_BUF 1472
+= D1_BUF 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_BUF
+= D1_BUF 2_bit_dac_0[0].D1_BUF
+R 2_bit_dac_0[0].switch_n_3v3_v2_0.DX_ 1992
+C D0_BUF0 2.5
+R D0_BUF 2197
+= D0_BUF 2_bit_dac_0[0].switch2n_3v3_0.DX_BUF
+= D0_BUF 2_bit_dac_0[0].D0_BUF
+R a_1438_406# 2220
+R 2_bit_dac_0[0].switch2n_3v3_0.R_L 2099
+R a_716_423# 570
+R 2_bit_dac_0[0].switch2n_3v3_0.R_H 2104
+R a_572_417# 570
+R VREFH 175
+= VREFH 2_bit_dac_0[0].VREFH
+R a_426_417# 570
+R 2_bit_dac_0[0].switch2n_3v3_0.VREFH 2102
+R 2_bit_dac_0[0].VOUT 4650
+= 2_bit_dac_0[0].VOUT 2_bit_dac_0[0].switch_n_3v3_v2_0.VOUT
+= 2_bit_dac_0[0].VOUT switch_n_3v3_1.VREFH
+R VOUT 2857
+= VOUT switch_n_3v3_1.VOUT
+R 2_bit_dac_0[1].VOUT 4650
+= 2_bit_dac_0[1].VOUT 2_bit_dac_0[1].switch_n_3v3_v2_0.VOUT
+= 2_bit_dac_0[1].VOUT switch_n_3v3_1.VREFL
+R 2_bit_dac_0[1].switch2n_3v3_0.VOUTH 4643
+= 2_bit_dac_0[1].switch2n_3v3_0.VOUTH 2_bit_dac_0[1].switch_n_3v3_v2_0.VREFH
+R VREFL 1575
+= VREFL 2_bit_dac_0[1].switch2n_3v3_0.VREFL
+= VREFL 2_bit_dac_0[1].VREFL
+R 2_bit_dac_0[1].switch2n_3v3_0.VOUTL 4615
+= 2_bit_dac_0[1].switch2n_3v3_0.VOUTL 2_bit_dac_0[1].switch_n_3v3_v2_0.VREFL
+R a_870_1651# 570
+R D2_BUF 1476
+= D2_BUF switch_n_3v3_1.DX_BUF
+R switch_n_3v3_1.DX_ 1995
+R D2 403
+= D2 switch_n_3v3_1.D2
+= D2 switch_n_3v3_1.DX
+R 2_bit_dac_0[0].D1 2012
+= 2_bit_dac_0[0].D1 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_BUF
+= 2_bit_dac_0[0].D1 2_bit_dac_0[0].switch_n_3v3_v2_0.DX
+= 2_bit_dac_0[0].D1 2_bit_dac_0[1].D1_BUF
+R 2_bit_dac_0[1].switch_n_3v3_v2_0.DX_ 1992
+R D1 403
+= D1 2_bit_dac_0[1].switch_n_3v3_v2_0.DX
+= D1 2_bit_dac_0[1].D1
+C 2_bit_dac_0[0].D00 3.4
+R 2_bit_dac_0[0].D0 2723
+= 2_bit_dac_0[0].D0 2_bit_dac_0[1].switch2n_3v3_0.DX_BUF
+= 2_bit_dac_0[0].D0 2_bit_dac_0[0].switch2n_3v3_0.DX
+= 2_bit_dac_0[0].D0 2_bit_dac_0[1].D0_BUF
+R a_1438_1634# 2220
+R D0 390
+= D0 2_bit_dac_0[1].switch2n_3v3_0.DX
+= D0 2_bit_dac_0[1].D0
+R 2_bit_dac_0[1].switch2n_3v3_0.R_L 2099
+R a_716_1651# 570
+R 2_bit_dac_0[1].switch2n_3v3_0.R_H 2104
+R a_572_1645# 570
+R 2_bit_dac_0[1].VREFH 2105
+= 2_bit_dac_0[1].VREFH 2_bit_dac_0[0].switch2n_3v3_0.VREFL
+= 2_bit_dac_0[1].VREFH 2_bit_dac_0[0].VREFL
+R a_426_1645# 570
+R 2_bit_dac_0[1].switch2n_3v3_0.VREFH 2102
+C VCC0 20.2
+R VCC 40348
+= VCC 2_bit_dac_0[1].switch_n_3v3_v2_0.VCC
+= VCC 2_bit_dac_0[1].switch2n_3v3_0.VCC
+= VCC 2_bit_dac_0[0].switch_n_3v3_v2_0.VCC
+= VCC 2_bit_dac_0[0].switch2n_3v3_0.VCC
+= VCC 2_bit_dac_0[0].VCC
+= VCC 2_bit_dac_0[1].VCC
+= VCC switch_n_3v3_1.VCC
+R VSS 11430
+= VSS 2_bit_dac_0[1].switch_n_3v3_v2_0.VSS
+= VSS 2_bit_dac_0[1].switch2n_3v3_0.VSS
+= VSS 2_bit_dac_0[0].switch_n_3v3_v2_0.VSS
+= VSS 2_bit_dac_0[0].switch2n_3v3_0.VSS
+= VSS 2_bit_dac_0[0].VSS
+= VSS 2_bit_dac_0[1].VSS
+= VSS switch_n_3v3_1.VSS

@@ -1,0 +1,1857 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__res_generic_nd__hv and Circuit 2 cell sky130_fd_pr__res_generic_nd__hv are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_generic_nd__hv is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_generic_nd__hv is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_generic_nd__h |Circuit 2: sky130_fd_pr__res_generic_nd__h 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_generic_nd__hv and sky130_fd_pr__res_generic_nd__hv are equivalent.
+
+Subcircuit summary:
+Circuit 1: switch2n_3v3                    |Circuit 2: switch2n_3v3                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (6)           |sky130_fd_pr__pfet_g5v0d10v5 (6)           
+sky130_fd_pr__nfet_g5v0d10v5 (6)           |sky130_fd_pr__nfet_g5v0d10v5 (6)           
+sky130_fd_pr__res_generic_nd__hv (4)       |sky130_fd_pr__res_generic_nd__hv (4)       
+Number of devices: 16                      |Number of devices: 16                      
+Number of nets: 12                         |Number of nets: 12                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__res_generic_nd__hv:10 vs. sky130_fd_pr__res_generic_nd__hv:R2:
+ l circuit1: 2.1   circuit2: 1   (delta=71%, cutoff=1%)
+ w circuit1: 0.42   circuit2: 1   (delta=81.7%, cutoff=1%)
+sky130_fd_pr__res_generic_nd__hv:2 vs. sky130_fd_pr__res_generic_nd__hv:R1:
+ l circuit1: 2.1   circuit2: 1   (delta=71%, cutoff=1%)
+ w circuit1: 0.42   circuit2: 1   (delta=81.7%, cutoff=1%)
+sky130_fd_pr__res_generic_nd__hv:11 vs. sky130_fd_pr__res_generic_nd__hv:R3:
+ l circuit1: 2.1   circuit2: 1   (delta=71%, cutoff=1%)
+ w circuit1: 0.42   circuit2: 1   (delta=81.7%, cutoff=1%)
+sky130_fd_pr__res_generic_nd__hv:5 vs. sky130_fd_pr__res_generic_nd__hv:R4:
+ l circuit1: 2.1   circuit2: 1   (delta=71%, cutoff=1%)
+ w circuit1: 0.42   circuit2: 1   (delta=81.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:6 vs. sky130_fd_pr__nfet_g5v0d10v5:M1:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:3 vs. sky130_fd_pr__nfet_g5v0d10v5:M3:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:7 vs. sky130_fd_pr__nfet_g5v0d10v5:M5:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:8 vs. sky130_fd_pr__nfet_g5v0d10v5:M9:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:12 vs. sky130_fd_pr__nfet_g5v0d10v5:M8:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:1 vs. sky130_fd_pr__nfet_g5v0d10v5:M12:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: switch2n_3v3                    |Circuit 2: switch2n_3v3                    
+-------------------------------------------|-------------------------------------------
+DX                                         |DX                                         
+VREFH                                      |VREFH                                      
+VREFL                                      |VREFL                                      
+VSS                                        |VSS                                        
+DX_BUF                                     |DX_BUF                                     
+VCC                                        |VCC                                        
+VOUTL                                      |VOUTL                                      
+VOUTH                                      |VOUTH                                      
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes switch2n_3v3 and switch2n_3v3 are equivalent.
+
+Cell switch_n_3v3 (0) disconnected node: m2_n6802_n990#
+Cell switch_n_3v3 (0) disconnected node: m2_n6562_n990#
+Cell switch_n_3v3 (0) disconnected node: D7
+Cell switch_n_3v3 (0) disconnected node: D6
+Cell switch_n_3v3 (0) disconnected node: D5
+Cell switch_n_3v3 (0) disconnected node: D4
+Cell switch_n_3v3 (0) disconnected node: m2_n6722_n990#
+Cell switch_n_3v3 (0) disconnected node: D3
+Cell switch_n_3v3 (0) disconnected node: D2
+Cell switch_n_3v3 (0) disconnected node: m2_n6482_n990#
+Cell switch_n_3v3 (0) disconnected node: m2_n6882_n990#
+Cell switch_n_3v3 (0) disconnected node: m2_n6642_n990#
+Subcircuit summary:
+Circuit 1: switch_n_3v3                    |Circuit 2: switch_n_3v3                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (4)           |sky130_fd_pr__nfet_g5v0d10v5 (4)           
+sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: switch_n_3v3                    |Circuit 2: switch_n_3v3                    
+-------------------------------------------|-------------------------------------------
+VSS                                        |VSS                                        
+VCC                                        |VCC                                        
+DX                                         |DX                                         
+VREFL                                      |VREFL                                      
+VREFH                                      |VREFH                                      
+DX_BUF                                     |DX_BUF                                     
+VOUT                                       |VOUT                                       
+m2_n6802_n990#                             |(no matching pin)                          
+m2_n6562_n990#                             |(no matching pin)                          
+D7                                         |(no matching pin)                          
+D6                                         |(no matching pin)                          
+D5                                         |(no matching pin)                          
+D4                                         |(no matching pin)                          
+m2_n6722_n990#                             |(no matching pin)                          
+D3                                         |(no matching pin)                          
+D2                                         |(no matching pin)                          
+m2_n6482_n990#                             |(no matching pin)                          
+m2_n6882_n990#                             |(no matching pin)                          
+m2_n6642_n990#                             |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes switch_n_3v3 and switch_n_3v3 are equivalent.
+  Flattening non-matched subcircuits switch_n_3v3 switch_n_3v3
+Flattening unmatched subcell x5_bit_dac in circuit x6_bit_dac (0)(2 instances)
+Flattening unmatched subcell x4_bit_dac in circuit x6_bit_dac (0)(4 instances)
+Flattening unmatched subcell x3_bit_dac in circuit x6_bit_dac (0)(8 instances)
+Flattening unmatched subcell x2_bit_dac in circuit x6_bit_dac (0)(16 instances)
+Flattening unmatched subcell switch_n_3v3_v2 in circuit x6_bit_dac (0)(16 instances)
+Flattening unmatched subcell 5_bit_dac in circuit 6_bit_dac (1)(2 instances)
+Flattening unmatched subcell 4_bit_dac in circuit 6_bit_dac (1)(4 instances)
+Flattening unmatched subcell 3_bit_dac in circuit 6_bit_dac (1)(8 instances)
+Flattening unmatched subcell 2_bit_dac in circuit 6_bit_dac (1)(16 instances)
+
+Subcircuit summary:
+Circuit 1: x6_bit_dac                      |Circuit 2: 6_bit_dac                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (124)         |sky130_fd_pr__nfet_g5v0d10v5 (124)         
+sky130_fd_pr__pfet_g5v0d10v5 (124)         |sky130_fd_pr__pfet_g5v0d10v5 (124)         
+switch2n_3v3 (16)                          |switch2n_3v3 (16)                          
+Number of devices: 264                     |Number of devices: 264                     
+Number of nets: 168 **Mismatch**           |Number of nets: 166 **Mismatch**           
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: x6_bit_dac                      |Circuit 2: 6_bit_dac                       
+
+---------------------------------------------------------------------------------------
+Net: 5_bit_dac_0[0]/VOUT                   |Net: BUF4                                  
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: switch_n_3v3_0/D3                     |Net: BUF2                                  
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: switch_n_3v3_0/D4                     |Net: 5_bit_dac:2/BUF3                      
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: switch_n_3v3_0/D2                     |Net: 5_bit_dac:2/BUF2                      
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/switch_n_3v |Net: 5_bit_dac:2/4_bit_dac:1/BUF2          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/switch_n_3v |Net: 5_bit_dac:2/4_bit_dac:1/switch_n_3v3: 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/BUF2          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/s 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/s 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/s 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: BUF3                                  
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/BUF2                      
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/switch_n_3v |Net: 5_bit_dac:1/4_bit_dac:2/BUF2          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/s 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/s 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: VINH                                  
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: BUF1                                  
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: 5_bit_dac_0[1]/VOUT                   |Net: 5_bit_dac:2/BUF1                      
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: 5_bit_dac_0[0]/D1                     |Net: 5_bit_dac:1/4_bit_dac:2/BUF1          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/4_bit_dac_0 |Net: 5_bit_dac:2/4_bit_dac:1/BUF1          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/BUF1          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/B 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/BUF1                      
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/4_bit_dac_0 |Net: VINL                                  
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/switch_n_3v3:3/net1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]//switch_n_3 |Net: 5_bit_dac:1/4_bit_dac:1/switch_n_3v3: 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/s 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/VINH                      
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/4_bit_dac_0 |Net: 5_bit_dac:2/VINL                      
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/4_bit_dac_0 |Net: 5_bit_dac:2/4_bit_dac:1/VINH          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/VINL          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/VINH          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/VINL          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/switch_n_3v3:3/net1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]//switch_n_3 |Net: 5_bit_dac:2/4_bit_dac:2/switch_n_3v3: 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/s 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/V 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/V 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+Net: VCC                                   |Net: VCC                                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 2   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 62  
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 4       |  sky130_fd_pr__pfet_g5v0d10v5/4 = 124     
+                                           |  switch2n_3v3/VCC = 16                    
+                                           |                                           
+Net: VSS                                   |Net: VSS                                   
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 124     |  sky130_fd_pr__nfet_g5v0d10v5/4 = 124     
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 62  |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 62  
+  switch2n_3v3/VSS = 16                    |  switch2n_3v3/VSS = 16                    
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/2 
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/2 
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/B 
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/BUF1          
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/s 
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/BUF2          
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:2/switch_n_3v3: 
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/BUF3                      
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/switch_n_3v |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 2       |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |                                           
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/VINL          
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/VINL                      
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+(no matching net)                          |Net: 5_bit_dac:1/4_bit_dac:1/VINH          
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+                                           |                                           
+(no matching net)                          |Net: 5_bit_dac:1/VINH                      
+                                           |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   
+                                           |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/4_bit_dac_0 |(no matching net)                          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |(no matching net)                          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/4_bit_dac_0 |(no matching net)                          
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 3   |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 3   |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTH = 1                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTL = 1                   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/2 
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  switch2n_3v3/VOUTL = 1                   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  switch2n_3v3/VOUTH = 1                   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[1]/VCC         |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 30  |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 60      |                                           
+  switch2n_3v3/VCC = 8                     |                                           
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/VCC         |(no matching net)                          
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 30  |                                           
+  sky130_fd_pr__pfet_g5v0d10v5/4 = 60      |                                           
+  switch2n_3v3/VCC = 8                     |                                           
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: VREFL                                 |Net: VREFL                                 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+                                           |                                           
+Net: D0                                    |Net: D0                                    
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+                                           |                                           
+Net: D0_BUF                                |Net: D0_BUF                                
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: VREFH                                 |Net: VREFH                                 
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:2/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/VINT          
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/VINT          
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/VINT          
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/4_bit_dac_0 |Net: 5_bit_dac:2/VINT                      
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: 5_bit_dac_0[1]/VREFH                  |Net: VINT                                  
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/VINT          
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/4_bit_dac_0 |Net: 5_bit_dac:1/VINT                      
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/3_bit_dac:1/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:2/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/3_bit_dac:1/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:2/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/3_bit_dac:1/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:2/BUF0          
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/x4_bit_dac: |Net: 5_bit_dac:2/4_bit_dac:1/BUF0          
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:2/BUF0          
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[1]/4_bit_dac_0 |Net: 5_bit_dac:2/BUF0                      
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: 5_bit_dac_0[0]/D0                     |Net: BUF0                                  
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:2/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/BUF0          
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/4_bit_dac_0 |Net: 5_bit_dac:1/BUF0                      
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/V 
+  switch2n_3v3/VREFL = 1                   |  switch2n_3v3/VREFL = 1                   
+  switch2n_3v3/VREFH = 1                   |  switch2n_3v3/VREFH = 1                   
+                                           |                                           
+Net: x5_bit_dac:5_bit_dac_0[0]/x4_bit_dac: |Net: 5_bit_dac:1/4_bit_dac:1/3_bit_dac:1/B 
+  switch2n_3v3/DX = 1                      |  switch2n_3v3/DX = 1                      
+  switch2n_3v3/DX_BUF = 1                  |  switch2n_3v3/DX_BUF = 1                  
+                                           |                                           
+Net: D3                                    |Net: D3                                    
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: D2                                    |Net: D2                                    
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: D1                                    |Net: D1                                    
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: D4                                    |Net: D4                                    
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Net: D4_BUF                                |Net: D4_BUF                                
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: D3_BUF                                |Net: D3_BUF                                
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: D2_BUF                                |Net: D2_BUF                                
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: D1_BUF                                |Net: D1_BUF                                
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: x6_bit_dac                      |Circuit 2: 6_bit_dac                       
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 1                                   |  DX = 1                                   
+  VREFL = 1                                |  VREFL = 1                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 2                               |  DX_BUF = 2                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 2                                |  VREFH = 2                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  VOUTH = 3                                |  VOUTH = 3                                
+  VOUTL = 3                                |  VOUTL = 3                                
+  DX_BUF = 1                               |  DX_BUF = 1                               
+  DX = 2                                   |  DX = 2                                   
+  VREFL = 2                                |  VREFL = 2                                
+  VREFH = 1                                |  VREFH = 1                                
+  VCC = 98                                 |  VCC = 202                                
+  VSS = 202                                |  VSS = 202                                
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[1]//switc |Instance: 5_bit_dac:1/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (202,4)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]//switc |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (202,4)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,4)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,4)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 2                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 2                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 2                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 2                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]//switc |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]//switc |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/switch_n_3v3:3/sky13 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]//switc |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 2                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 2                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (202,6)                          
+  2 = 2                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (98,6)                           |  (1,3) = (6,6)                            
+  2 = 2                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (6,3)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[1]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:2/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]//switc |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,3)                            
+  2 = 4                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,3)                            
+  2 = 4                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,3)                            
+  2 = 4                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]//switc |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,4)                           |  (1,3) = (6,3)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/switch_n_3v3:3/sky13 
+  (1,3) = (98,4)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 4                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (98,4)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 4                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (98,4)                           |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 4                                    
+  4 = 98                                   |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,3)                            |  (1,3) = (6,3)                            
+  2 = 4                                    |  2 = 4                                    
+  4 = 98                                   |  4 = 202                                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 4                                    |  2 = 4                                    
+  4 = 202                                  |  4 = 202                                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]//switc |Instance: 5_bit_dac:1/switch_n_3v3:3/sky13 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/3_bit_da 
+  (1,3) = (6,6)                            |  (1,3) = (6,6)                            
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/switch_n 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/switch_n 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:2/switch_n 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+---------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+                                           |                                           
+Instance: x5_bit_dac:5_bit_dac_0[0]/x4_bit |Instance: 5_bit_dac:1/4_bit_dac:1/3_bit_da 
+  (1,3) = (202,6)                          |  (1,3) = (202,6)                          
+  2 = 6                                    |  2 = 6                                    
+  4 = 202                                  |  4 = 202                                  
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: x6_bit_dac                      |Circuit 2: 6_bit_dac                       
+-------------------------------------------|-------------------------------------------
+VCC                                        |(no matching pin)                          
+VSS                                        |VSS                                        
+VREFL                                      |VREFL                                      
+D0                                         |D0                                         
+D0_BUF                                     |D0_BUF                                     
+VREFH                                      |VREFH                                      
+D1                                         |D3 **Mismatch**                            
+D2                                         |D2                                         
+D3                                         |D1 **Mismatch**                            
+D4                                         |D4                                         
+D5                                         |D5                                         
+D3_BUF                                     |D4_BUF **Mismatch**                        
+D2_BUF                                     |D3_BUF **Mismatch**                        
+D4_BUF                                     |D2_BUF **Mismatch**                        
+D1_BUF                                     |D1_BUF                                     
+D5_BUF                                     |D5_BUF                                     
+VOUT                                       |VOUT                                       
+(no matching pin)                          |VCC                                        
+VCC                                        |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists for x6_bit_dac and 6_bit_dac altered to match.
+Device classes x6_bit_dac and 6_bit_dac are equivalent.
+
+Final result: Top level cell failed pin matching.
+
+The following cells had property errors:
+ switch2n_3v3
