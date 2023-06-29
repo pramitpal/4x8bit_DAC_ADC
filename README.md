@@ -239,7 +239,7 @@ For Klayout checks:
 We will get 5 xml files with all the error reports(if any) which are all clean for our case.
 Note: These xml files can be imported into the klayout view of the gds by which we can see exactly where our DRC error is in the layout.
 
-
+<img src="https://github.com/pramitpal/8bit_dac/assets/41202066/edc0b361-91ae-41ed-9ddc-32b65c0f2594" width="550">
 
 # Post Layout Simulation
 
