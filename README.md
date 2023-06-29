@@ -111,6 +111,7 @@ A correct lef file screenshot is shown below.
 
 <img src="https://github.com/pramitpal/8bit_dac/assets/41202066/ec788ab4-58e7-4176-83c9-9282f04ccbe5" height="400">
 
+
 # Running LVS check on the layout and the schematic file
 In order to generate the netlist from xschem for running lvs, ``LVS netlist: Top level is a .subckt`` must be checked before netlist extraction. This can be found under the simulation dropdown menu. Now we have generated the prelayout spice netlist.
 
@@ -119,6 +120,7 @@ To generate the post-layout netlist, we will be needing magic. The extraction co
 select top cell
 extract all
 ext2spice lvs
+ext2spice
 ```
 Before continuing it must be ensured that both the top level subckt has the same name.
 
@@ -126,70 +128,121 @@ Now lvs check is done by netgen which is done by
 ```
 netgen -batch lvs "$NETLIST_LAY $TOPCELL" "$NETLIST_SCH $TOPCELL" \
 		"$PDK_ROOT/$PDK/libs.tech/netgen/${PDK}_setup.tcl" \
-		"$LVS_REPORT" > "$LVS_LOG"
+		comp.out
 ```
-Moreover LVS check can be done using a premade script present in the docker container already setup. To run it in a directory the layout file, either .mag or .gds must be present along with the schematic(.sch) file but both of them must have the same cellname.
+The output report is stored in the current directory itself. If the two netlists match, it will be displayed in the ``comp.out`` file as:
+
+``Final result: Circuits match uniquely.``
+# Measurement of 8-bit DAC characteristics
+First the netlist for 8_bit_dac_tx_buffer.mag layout is extracted without parasitics from which we can calculate a rough estimate of the time delay between the input signal and the buffered DAC output.
+To extract the netlist without parasitics we use
 ```
-iic-lvs.sh <cellname>
+port makeall
+extract all
+ext2spice scale off
+ext2spice cthresh infinite rthresh infinite
+ext2spice
 ```
-The output report is stored in the current directory itself.
-# Run the Klayout FEOL/BEOL/Density/Zero Area/overlapping check
-```bash
-   cd PostLayout
-   ./run_precheck
+For measuring the time delay we have given a step input to the D7 input pin and then measured the delay using ngspice builtin commands.
 ```
+.measure tran tdiff_in_vout TRIG v(D7) VAL=0.9 RISE=1 TARG v(VOUT) VAL=0.828 RISE=1
+.measure tran tdiff_vout_voutbuf TRIG v(VOUT) VAL=0.828 RISE=1 TARG v(VOUT_BUF) VAL=0.828 RISE=1
+```
+This gives us two values:
+a. Time delay between the D7 input to the unbuffered output
+b. Time taken for the buffer to give an output voltage.
+
+Then we can calculate the total time delay between input and output for one buffered 8-bit DAC.
+D7->VOUT = 0.853 ns
+VOUT->VOUT_BUF = 2.04 ns
+Total delay= 2.04ns + 0.853ns = 2.893ns
+
+<img src="T_delay.png" width="650">
+
+In order to measure the output frequency of the output waveform we use 
+```
+.measure tran time_period TRIG v(VOUT_BUF) VAL=1.65 FALL=1 TARG v(VOUT_BUF) VAL=1.65 FALL=2
+```
+which for this netlist gives us a value of time_period of 124ns which if calculated turns out to be ``8.0645 MHz``.
+
+<img src="no_parasitic_max_freq.png" width="650">
+
+This is not the most accurate way to find out the characteristics, for the most accurate one we have to perform full RCX extraction which takes care of distributed parasitic resistance and capacitances.
+To do that we can run these commands in magic but first we have to convert all top level labels to ports so that we have a top .subckt with ports.
+After that we need to flatten the cell to do the extraction, so step by step 
+```
+select top cell
+flatten <cellname_flat>
+load <cellname_flat>
+select top cell
+extract all
+ext2sim labels on
+ext2sim
+extresist tolerance 10
+extresist
+ext2spice lvs 
+ext2spice cthresh 1
+ext2spice extresistor on
+ext2spice
+```
+
+This will give us a huge netlist which we can use for the most correct simulation.
+
+<img src="4_bit_RCX_simulation.png" width="700">
+
+The simulation takes a lot of time to converge so we are using just the transient analysis only which can be specified using 
+
+``` 
+.tran 1n 100n uic
+```
+Next our task is to characterize the DAC using the full RCX netlist, which are:
+
+1. Transfer Function
+2. Output Voltage Range
+3. Differential Nonlinearity (DNL)
+4. Integral Nonlinearity (INL)
+5. Power Supply Rejection Ratio (PSRR)
+6. Output Impedance
+7. Settling Time
+
+# Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
+In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
+But first we need to make the .gds file for the dac_top which can be done by 
+```
+gds write dac_top.gds
+```
+We have a well written DRC checking script which can be used for both magic and Klayout. If we use the script without any netlist we can see the help page which shows the various arguments.
+
+```
+DRC script for Magic-VLSI and KLayout (IIC@JKU)
+
+Usage: /foss/tools/osic-multitool/iic-drc.sh [-d] [-m|-k|-b|-c] <cellname>
+       -m Run Magic DRC (default)
+       -k Run KLayout DRC
+       -b Run Magic and KLayout DRC
+       -c Clean output files
+       -d Enable debug information
+```
+
+For Magic:
+```
+./iic-drc.sh -m dac_top
+```
+After which we will have a ``dac_top.magic.drc.rpt`` file which gives us a list of all the errors which in our case is clean.
+
+<img src="magic_drc_clean.png" width="600">
+
+For Klayout checks:
+```
+./iic-drc.sh -k dac_top
+```
+We will get 5 xml files with all the error reports(if any) which are all clean for our case.
+Note: These xml files can be imported into the klayout view of the gds by which we can see exactly where our DRC error is in the layout.
+
+
 
 # Post Layout Simulation
-```bash
-   ngspice resistor_test.spice
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/resistor.png" ></td> </tr> </table>
 
-```bash
-   ngspice switch_test.spice
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/switch.png" ></td> </tr> </table>
-
-```bash
-   ngspice switch2_test.spice
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/switch2.png" ></td> </tr> </table>
-
-
-```bash
-   ngspice switch2n_test.spice
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/switch2n.png" ></td> </tr> </table>
-
-```bash
-   ngspice 2bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/2bit_DAC.png" ></td> </tr> </table>
-
-```bash
-   ngspice 3bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/3bit_DAC.png" ></td> </tr> </table>
-
-```bash
-   ngspice 4bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/4bit_DAC.png" ></td> </tr> </table>
-
-```bash
-   ngspice 5bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/5bit_DAC.png" ></td> </tr> </table>
-
-```bash
-   ngspice 6bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/6bit_DAC.png" ></td> </tr> </table>
-
-```bash
-   ngspice 7bit_DAC_test.spice 
-```
-   <table> <tr> <td  align="center"><img src="./docs/source/_static/7bit_DAC.png" ></td> </tr> </table>
 
 ```bash
    ngspice 8bit_DAC_test.spice 
