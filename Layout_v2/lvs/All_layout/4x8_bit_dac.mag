@@ -1,9 +1,0 @@
-magic
-tech sky130A
-timestamp 1687056873
-use 8_bit_dac_tx_buffer  8_bit_dac_tx_buffer_0
-array 0 3 3863 0 0 42545
-timestamp 1687028152
-transform 1 0 0 0 1 0
-box 0 0 3863 42545
-<< end >>

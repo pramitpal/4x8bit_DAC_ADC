@@ -2143,24 +2143,28 @@ V4 VCCD 0 dc 1.8
 
 V5 VREFH 0 dc 3.3
 
-V6  D0 0 PULSE(0 1.8 1u 1n 1n 1u 2u)
-V7  D1 0 PULSE(0 1.8 2u 1n 1n 2u 4u)
-V8  D2 0 PULSE(0 1.8 4u 1n 1n 4u 8u)
-V9  D3 0 PULSE(0 1.8 8u 1n 1n 8u 16u)
-V10 D4 0 PULSE(0 1.8 16u 1n 1n 16u 32u)
-V11 D5 0 PULSE(0 1.8 32u 1n 1n 32u 64u)
-V12 D6 0 PULSE(0 1.8 64u 1n 1n 64u 128u)
+*V6  D0 0 PULSE(0 1.8 1u 1n 1n 1u 2u)
+*V7  D1 0 PULSE(0 1.8 2u 1n 1n 2u 4u)
+*V8  D2 0 PULSE(0 1.8 4u 1n 1n 4u 8u)
+*V9  D3 0 PULSE(0 1.8 8u 1n 1n 8u 16u)
+*V10 D4 0 PULSE(0 1.8 16u 1n 1n 16u 32u)
+*V11 D5 0 PULSE(0 1.8 32u 1n 1n 32u 64u)
+*V12 D6 0 PULSE(0 1.8 64u 1n 1n 64u 128u)
 V13 D7 0 PULSE(0 1.8 128u 1n 1n 128u 256u)
 
-.tran 5u 260u
+.tran 0.05u 150u uic
+
+.measure tran tdiff_in_vout TRIG v(D7) VAL=0.9 RISE=1 TARG v(VOUT) VAL=0.828 RISE=1
+.measure tran tdiff_vout_voutbuf TRIG v(VOUT) VAL=0.828 RISE=1 TARG v(VOUT_BUF) VAL=0.828 RISE=1
+
 .control
 run
 
 set xbrushwidth=2
 
-plot VOUT VOUT_BUF
+plot D7 VOUT VOUT_BUF 
 
-hardcopy out.svg VOUT VOUT_BUF
+*hardcopy out.svg VOUT VOUT_BUF
 
 .endc
 .end
