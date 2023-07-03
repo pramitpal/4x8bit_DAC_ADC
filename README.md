@@ -205,7 +205,7 @@ Next our task is to characterize the DAC using the full RCX netlist, which are:
 6. Output Impedance
 7. Settling Time
 
-A. Settling Time: Refers to the time it takes for the output voltage of the DAC to stabilize within a specified error band after a change in the digital input code. By simulating the DAC's response to different input code transitions, we can calculate the settling time.
+__A. Settling Time__: Refers to the time it takes for the output voltage of the DAC to stabilize within a specified error band after a change in the digital input code. By simulating the DAC's response to different input code transitions, we can calculate the settling time.
 In ngspice we use the ``.meas`` to find the settling time. We are finding the time the buffered output settles within 1% error of the desired voltage. The control commands are as follows:
 ```
 ******************************************************
@@ -228,8 +228,14 @@ print total_time
 print settling_time
 print max_freq
 ```
-<img src="settling_time_total_time.png" width="550">
-B. Maximum Frequency: This property is heavily dependet on the parasitics and the circuit design itself and can be calculated by 
+<img src="settling_time_total_time.png" width="550"> 
+
+<br/>
+
+__B. Total Time__ : Time taken by the DAC from when the step input is applied to its digital input to the time when the output gets stable and within 1% error.
+Here we have total time of ``55.55 ns``.
+
+__C. Maximum Frequency__ : This property is heavily dependet on the parasitics and the circuit design itself and can be calculated by 
 
 ```
 Max_frequency = 1/ total_time
@@ -243,6 +249,7 @@ Which we found out to be ``1/ 55.55ns = 18.001 MHz``.
 | 	3	| 	Maximum Frequency	| 	18.001 MHz	 | 
 | 	4 	| 	Minimum Output Voltage | 	0.02 V	 | 
 | 	5	| 	Maximum Output Voltage | 	3.23 V	 | 
+| 	6	| 	Output Voltage Range | 	3.21 V	 | 
 
 # Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
 In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
