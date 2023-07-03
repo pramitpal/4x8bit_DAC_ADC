@@ -205,6 +205,38 @@ Next our task is to characterize the DAC using the full RCX netlist, which are:
 6. Output Impedance
 7. Settling Time
 
+A. Settling Time: Refers to the time it takes for the output voltage of the DAC to stabilize within a specified error band after a change in the digital input code. By simulating the DAC's response to different input code transitions, we can calculate the settling time.
+In ngspice we use the ``.meas`` to find the settling time. We are finding the time the buffered output settles within 1% error of the desired voltage. The control commands are as follows:
+```
+******************************************************
+Vin D5 0 PWL(0 0 1u 0 1.0001u Vhigh)
+
+.tran 1n 10u uic
+
+.control
+run
+****************measuring settling_time***************
+meas tran tymax MAX_AT v(vout_buf) from=0.1u to=10u
+meas tran yeval FIND v(vout_buf) AT=10u
+let tol=0.99*yeval
+meas tran teval WHEN v(vout_buf)=tol CROSS=LAST
+let settling_time=(teval-tymax)
+let total_time=(teval-1e-06)
+let max_freq=1/total_time
+******************************************************
+print total_time
+print settling_time
+print max_freq
+```
+<img src="settling_time_total_time.png" width="550">
+B. Maximum Frequency: This property is heavily dependet on the parasitics and the circuit design itself and can be calculated by 
+
+```
+Max_frequency = 1/ total_time
+```
+Which we found out to be ``1/ 55.55ns = 18.001 MHz``.
+
+
 # Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
 In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
 But first we need to make the .gds file for the dac_top which can be done by 
