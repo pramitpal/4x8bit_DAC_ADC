@@ -236,6 +236,13 @@ Max_frequency = 1/ total_time
 ```
 Which we found out to be ``1/ 55.55ns = 18.001 MHz``.
 
+| 	Sl. no.	 | 	Property	 | 	Value	 | 
+| 	:-----:	 | 	:-----:	 | 	:-----:	 | 
+| 	1	| 	Settling Time	| 	42.3 ns	 | 
+| 	2	| 	Total Time	| 	55.55 ns	 | 
+| 	3	| 	Maximum Frequency	| 	18.001 MHz	 | 
+| 	4 	| 	Minimum Output Voltage | 	0.02 V	 | 
+| 	5	| 	Maximum Output Voltage | 	3.23 V	 | 
 
 # Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
 In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
