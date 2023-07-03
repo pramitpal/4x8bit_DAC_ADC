@@ -197,14 +197,6 @@ The simulation takes a lot of time to converge so we are using just the transien
 ```
 Next our task is to characterize the DAC using the full RCX netlist, which are:
 
-1. Transfer Function
-2. Output Voltage Range
-3. Differential Nonlinearity (DNL)
-4. Integral Nonlinearity (INL)
-5. Power Supply Rejection Ratio (PSRR)
-6. Output Impedance
-7. Settling Time
-
 __A. Settling Time__: Refers to the time it takes for the output voltage of the DAC to stabilize within a specified error band after a change in the digital input code. By simulating the DAC's response to different input code transitions, we can calculate the settling time.
 In ngspice we use the ``.meas`` to find the settling time. We are finding the time the buffered output settles within 1% error of the desired voltage. The control commands are as follows:
 ```
@@ -265,7 +257,7 @@ LSB refers to the Least Significant Bit, which represents the smallest possible 
 | 	5	| 	Maximum Output Voltage | 	3.23 V	 | 
 | 	6	| 	Output Voltage Range | 	3.21 V	 | 
 | 	7	| 	Differential Nonlinearity (DNL) | 0.01478	 |
-| 	8	| 	Integral Nonlinearity (INL) | 	 |
+
 
 # Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
 In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
