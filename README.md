@@ -228,7 +228,7 @@ print total_time
 print settling_time
 print max_freq
 ```
-<img src="settling_time_total_time.png" width="550"> 
+<img src="settling_time_total_time.png" width="810"> 
 
 <br/>
 
@@ -253,7 +253,7 @@ LSB refers to the Least Significant Bit, which represents the smallest possible 
 ``DNL= 0.01478 = 1.478 %``.
 
 
-<img src="DNL.png" width="600">
+<img src="DNL.png" width="810">
 
 
 | 	Sl. no.	 | 	Property	 | 	Value	 | 
