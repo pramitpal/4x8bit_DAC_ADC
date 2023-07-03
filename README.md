@@ -242,6 +242,20 @@ Max_frequency = 1/ total_time
 ```
 Which we found out to be ``1/ 55.55ns = 18.001 MHz``.
 
+__D. Differential Nonlinearity (DNL)__ : DNL and INL are measures of the linearity of a DAC. DNL quantifies the deviation of the DAC's output voltage from the ideal step size. These properties can be calculated by applying a series of digital input codes and measuring the corresponding analog output voltages.
+DNL is the deviation from the ideal step size, normalized to the least significant bit (LSB) size: ``DNL = (Measured Step - Ideal Step) / LSB``.
+Where ``Ideal Step Size = Max_Voltage/2^N (N=no of bits)``.
+From the below figure it is calculated that the Measured Step size is `` 0.2093 V``
+Ideal Step Size = ``0.20625 V (for 4 bit as we are simulating using the full RCX, due to time constraints).``
+
+LSB refers to the Least Significant Bit, which represents the smallest possible change in the digital input code that results in a discernible change in the output voltage which in our case is equal to Ideal step size = ``0.20625 V``.
+
+``DNL= 0.01478 = 1.478 %``.
+
+
+<img src="DNL.png" width="600">
+
+
 | 	Sl. no.	 | 	Property	 | 	Value	 | 
 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 
 | 	1	| 	Settling Time	| 	42.3 ns	 | 
@@ -250,6 +264,8 @@ Which we found out to be ``1/ 55.55ns = 18.001 MHz``.
 | 	4 	| 	Minimum Output Voltage | 	0.02 V	 | 
 | 	5	| 	Maximum Output Voltage | 	3.23 V	 | 
 | 	6	| 	Output Voltage Range | 	3.21 V	 | 
+| 	7	| 	Differential Nonlinearity (DNL) | 0.01478	 |
+| 	8	| 	Integral Nonlinearity (INL) | 	 |
 
 # Run the DRC checks using magic and Klayout (FEOL/BEOL/Density/Zero Area/overlapping) check
 In order to do the extensive DRC check we use both magic and Klayout to give us the DRC check reports.
