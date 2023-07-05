@@ -7810,7 +7810,7 @@ set hcopydevtype = svg
 
 plot D0 D1 D2 D3 VOUT
 
-hardcopy 4_bit_dac_RCX.svg D0 D1 D2 D3 VOUT
+*hardcopy 4_bit_dac_RCX.svg D0 D1 D2 D3 VOUT
 
 .endc
 .end

@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1688581082
+timestamp 1687027365
 << metal1 >>
 rect 6968 10970 6974 11022
 rect 7026 10970 7032 11022
@@ -63,11 +63,8 @@ rect 5442 10222 5483 10389
 rect 5522 10232 5563 10389
 rect 7085 10010 7137 10016
 rect 5354 9991 5406 9997
-rect 277 9744 332 9915
-rect 378 9740 433 9957
 rect 7137 9970 7322 9998
 rect 7085 9952 7137 9958
-rect 3564 9714 3605 9936
 rect 5354 9933 5406 9939
 rect 5122 9689 5164 9825
 rect 5202 9683 5244 9815
@@ -85,11 +82,8 @@ rect 277 0 332 225
 rect 378 0 433 211
 rect 3564 0 3605 92
 use 5_bit_dac  5_bit_dac_0
-timestamp 1688581082
-transform 1 0 0 0 1 9824
-box -2 0 7724 9824
-use 5_bit_dac  5_bit_dac_1
-timestamp 1688581082
+array 0 0 7252 0 1 9824
+timestamp 1687027365
 transform 1 0 0 0 1 0
 box -2 0 7724 9824
 use switch_n_3v3  switch_n_3v3_0
@@ -98,37 +92,20 @@ transform 1 0 12004 0 1 10728
 box -6932 -990 -4922 236
 << labels >>
 rlabel metal2 82 9906 82 9906 3 VCC
-port 12 e
 rlabel metal2 180 9904 180 9904 3 VSS
-port 13 e
 rlabel metal2 290 19592 290 19592 3 D0
-port 1 e
 rlabel metal2 392 19600 392 19600 3 VREFL
-port 6 e
 rlabel metal2 3576 19606 3576 19606 3 D1
-port 2 e
 rlabel metal2 5136 19622 5136 19622 3 D2
-port 3 e
 rlabel metal2 5230 19628 5230 19628 3 D3
-port 14 e
 rlabel metal2 5310 19634 5310 19634 3 D4
-port 16 e
 rlabel metal2 5386 19634 5386 19634 3 D5
-port 4 e
 rlabel metal2 282 42 282 42 3 D0_BUF
-port 7 e
 rlabel metal2 418 36 418 36 3 VREFH
-port 5 e
 rlabel metal2 3588 24 3588 24 3 D1_BUF
-port 8 e
 rlabel metal2 5128 1298 5128 1298 3 D2_BUF
-port 9 e
 rlabel metal2 5210 1312 5210 1312 3 D3_BUF
-port 15 e
 rlabel metal2 5288 1292 5288 1292 3 D4_BUF
-port 17 e
 rlabel metal2 5374 1294 5374 1294 3 D5_BUF
-port 10 e
 rlabel metal2 7344 10781 7344 10781 3 VOUT
-port 11 e
 << end >>

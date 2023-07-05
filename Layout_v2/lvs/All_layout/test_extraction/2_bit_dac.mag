@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1688581082
+timestamp 1687488057
 << nwell >>
 rect 2852 916 3140 926
 rect 2852 406 3192 916
@@ -65,7 +65,7 @@ rect 3038 -182 3079 -67
 rect -528 728 7198 868
 rect -528 38 7198 178
 use switch2n_3v3  switch2n_3v3_0
-timestamp 1688581082
+timestamp 1687488057
 transform 1 0 7554 0 1 722
 box -7582 -710 -4563 214
 use switch_n_3v3_v2  switch_n_3v3_v2_0

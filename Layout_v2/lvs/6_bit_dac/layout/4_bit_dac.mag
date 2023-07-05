@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1688581082
+timestamp 1688354186
 << metal1 >>
 rect 6512 3766 6564 3772
 rect 6512 3708 6564 3714
@@ -79,11 +79,11 @@ rect 378 0 433 97
 rect 3564 0 3605 92
 use 3_bit_dac  3_bit_dac_0
 array 0 0 7147 0 1 2456
-timestamp 1688581082
+timestamp 1688354186
 transform 1 0 118 0 1 0
 box -120 0 7606 2456
 use switch_n_3v3  switch_n_3v3_0
-timestamp 1687027365
+timestamp 1687542942
 transform 1 0 12004 0 1 3360
 box -6932 -990 -4922 236
 << labels >>

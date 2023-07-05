@@ -1,4 +1,4 @@
-* NGSPICE file created from 6_bit_dac.ext - technology: sky130A
+* NGSPICE file created from 6_bit_dac_with_array.ext - technology: sky130A
 
 .subckt switch_n_3v3 VREFH DX_BUF m2_n6802_n990# m2_n6562_n990# D7 D6 D5 D4 DX m2_n6722_n990#
 + D3 D2 m2_n6482_n990# m2_n6882_n990# VCC VSS VOUT m2_n6642_n990# VREFL
@@ -88,8 +88,8 @@ Xswitch_n_3v3_0 4_bit_dac_0[0]/VOUT D4_BUF switch_n_3v3_0/D3 switch_n_3v3_0/D6 s
 + switch_n_3v3
 .ends
 
-.subckt x6_bit_dac D0 D1 D2 D5 VREFH VREFL D0_BUF D1_BUF D2_BUF D5_BUF VOUT VCC VSS
-+ D3 D3_BUF D4 D4_BUF
+.subckt x6_bit_dac_with_array VCC VSS D0 VREFL D1 D2 D3 D4 D5 D0_BUF VREFH D1_BUF
++ D2_BUF D3_BUF D4_BUF D5_BUF VOUT
 Xswitch_n_3v3_0 5_bit_dac_0[0]/VOUT D5_BUF switch_n_3v3_0/D3 switch_n_3v3_0/D6 switch_n_3v3_0/D7
 + switch_n_3v3_0/D6 D5 switch_n_3v3_0/D4 D5 switch_n_3v3_0/D4 switch_n_3v3_0/D3 switch_n_3v3_0/D2
 + switch_n_3v3_0/D7 switch_n_3v3_0/D2 VCC VSS VOUT D5_BUF 5_bit_dac_0[1]/VOUT switch_n_3v3

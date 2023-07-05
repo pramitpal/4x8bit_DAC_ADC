@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1687971628
+timestamp 1688008296
 << nwell >>
 rect 1280 4596 1946 4802
 rect 3378 4784 4292 4792
@@ -11334,32 +11334,9 @@ rect 4202 262 7724 318
 rect 1910 251 7724 262
 rect -2 220 7724 251
 << labels >>
-rlabel metal2 74 4472 74 4472 7 VCC
-port 1 w
-rlabel metal2 182 3754 182 3754 7 VSS
-port 2 w
-rlabel metal2 312 4878 312 4878 7 D0
-port 3 w
-rlabel metal2 420 4878 420 4878 7 VREFL
-port 4 w
-rlabel metal2 316 22 316 22 7 D0_BUF
-port 5 w
-rlabel metal2 416 16 416 16 3 VREFH
-port 6 e
-rlabel metal2 3592 4898 3592 4898 3 D1
-port 7 e
 rlabel metal2 3574 8 3574 8 3 D1_BUF
-port 8 e
-rlabel metal2 5150 4900 5150 4900 3 D2
-port 9 e
-rlabel metal2 5222 4898 5222 4898 3 D3
-port 10 e
 rlabel metal2 5140 1282 5140 1282 3 D2_BUF
-port 11 e
 rlabel metal2 5212 1290 5212 1290 3 D3_BUF
-port 12 e
-rlabel metal2 7142 3534 7142 3534 3 VOUT
-port 13 e
 flabel metal1 5562 3032 5582 3070 7 FreeSans 600 0 0 0 switch_n_3v3_0.DX
 flabel metal1 5534 2578 5562 2616 7 FreeSans 600 0 0 0 switch_n_3v3_0.DX_BUF
 flabel metal3 7052 3366 7082 3506 3 FreeSans 600 0 0 0 switch_n_3v3_0.VCC
@@ -11553,4 +11530,22 @@ flabel metal3 3432 3904 3462 4044 7 FreeSans 600 0 0 0 3_bit_dac_0[1].2_bit_dac_
 flabel metal3 3432 4594 3462 4734 7 FreeSans 600 0 0 0 3_bit_dac_0[1].2_bit_dac_0[1].switch_n_3v3_v2_0.VCC
 flabel metal1 4888 4791 4888 4791 1 FreeSans 480 0 0 40 3_bit_dac_0[1].2_bit_dac_0[1].switch_n_3v3_v2_0.VREFH
 flabel metal1 5041 3825 5041 3825 5 FreeSans 480 0 0 -40 3_bit_dac_0[1].2_bit_dac_0[1].switch_n_3v3_v2_0.VREFL
+flabel metal2 s 294 4902 294 4902 0 FreeSans 1600 0 -1120 1120 D0
+port 5 nsew signal input
+flabel metal2 s 416 4906 416 4906 0 FreeSans 1600 0 3040 1120 VREFL
+port 4 nsew signal input
+flabel metal2 s 3580 4900 3580 4900 0 FreeSans 1600 0 0 1120 D1
+port 6 nsew signal input
+flabel metal2 s 5136 4908 5136 4908 0 FreeSans 1600 0 -1600 1120 D2
+port 7 nsew signal input
+flabel metal2 s 5234 4906 5234 4906 0 FreeSans 1600 0 800 1120 D3
+port 8 nsew signal input
+flabel metal2 s 74 4488 74 4488 0 FreeSans 1600 0 -3200 1280 VCC
+port 1 nsew power bidirectional
+flabel metal2 s 180 3756 180 3756 0 FreeSans 1600 0 -3200 0 VSS
+port 2 nsew ground bidirectional
+flabel metal2 s 416 10 416 10 5 FreeSans 1600 0 1920 -800 VREFH
+port 3 s signal input
+flabel metal2 6536 2662 6536 2662 5 FreeSans 1600 0 1920 -800 VOUT
+port 9 s signal output
 << end >>
