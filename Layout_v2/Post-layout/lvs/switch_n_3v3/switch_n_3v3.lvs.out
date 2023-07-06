@@ -1,0 +1,69 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Cell switch_n_3v3 (0) disconnected node: D2
+Cell switch_n_3v3 (0) disconnected node: D3
+Cell switch_n_3v3 (0) disconnected node: D4
+Cell switch_n_3v3 (0) disconnected node: D5
+Cell switch_n_3v3 (0) disconnected node: D6
+Cell switch_n_3v3 (0) disconnected node: D7
+Subcircuit summary:
+Circuit 1: switch_n_3v3                    |Circuit 2: switch_n_3v3                    
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (4)           |sky130_fd_pr__nfet_g5v0d10v5 (4)           
+sky130_fd_pr__pfet_g5v0d10v5 (4)           |sky130_fd_pr__pfet_g5v0d10v5 (4)           
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 8                          |Number of nets: 8                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with port errors.
+
+Subcircuit pins:
+Circuit 1: switch_n_3v3                    |Circuit 2: switch_n_3v3                    
+-------------------------------------------|-------------------------------------------
+DX                                         |DX                                         
+VREFL                                      |VREFL                                      
+VREFH                                      |VREFH                                      
+VSS                                        |VSS                                        
+VCC                                        |VCC                                        
+DX_BUF                                     |DX_BUF                                     
+VOUT                                       |VOUT                                       
+D2                                         |(no matching pin)                          
+D3                                         |(no matching pin)                          
+D4                                         |(no matching pin)                          
+D5                                         |(no matching pin)                          
+D6                                         |(no matching pin)                          
+D7                                         |(no matching pin)                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes switch_n_3v3 and switch_n_3v3 are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.

@@ -1,0 +1,23 @@
+* NGSPICE file created from level_tx_8bit.ext - technology: sky130A
+
+.subckt level_tx_1bit VCCD VSSD VIN VOUT VDDA
+X0 a_n1423_1248# VOUT VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X1 VSSD VIN a_n1353_675# VSSD sky130_fd_pr__nfet_01v8 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.2
+X2 VSSD VIN a_n1423_1248# VSSD sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+X3 VOUT a_n1423_1248# VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+X4 a_n1353_675# VIN VCCD VCCD sky130_fd_pr__pfet_01v8 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.2
+X5 VOUT a_n1353_675# VSSD VSSD sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+.ends
+
+.subckt level_tx_8bit VDDA VCCD VSSD VIN0 VOUT0 VIN1 VOUT1 VIN2 VOUT2 VIN3 VOUT3 VIN4
++ VOUT4 VIN5 VOUT5 VIN6 VOUT6 VIN7 VOUT7
+Xlevel_tx_1bit_0[0] VCCD VSSD VIN0 VOUT0 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[1] VCCD VSSD VIN1 VOUT1 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[2] VCCD VSSD VIN2 VOUT2 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[3] VCCD VSSD VIN3 VOUT3 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[4] VCCD VSSD VIN4 VOUT4 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[5] VCCD VSSD VIN5 VOUT5 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[6] VCCD VSSD VIN6 VOUT6 VDDA level_tx_1bit
+Xlevel_tx_1bit_0[7] VCCD VSSD VIN7 VOUT7 VDDA level_tx_1bit
+.ends
+

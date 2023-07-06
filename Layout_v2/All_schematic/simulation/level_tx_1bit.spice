@@ -1,0 +1,11 @@
+** sch_path: /foss/designs/8_bit_dac/All_layouts/Layout_v2/lvs/All_schematic/level_tx_1bit.sch
+.subckt level_tx_1bit VDDA VIN VOUT VCCD VSSD
+*.PININFO VDDA:B VIN:I VOUT:O VCCD:B VSSD:B
+XM4 net2 VOUT VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM5 net1 VIN VCCD VCCD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+XM6 net1 VIN VSSD VSSD sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM7 net2 VIN VSSD VSSD sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM8 VOUT net1 VSSD VSSD sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM9 VOUT net2 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+.end

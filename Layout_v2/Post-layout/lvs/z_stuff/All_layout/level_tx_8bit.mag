@@ -1,0 +1,51 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1688644818
+<< metal2 >>
+rect 597 825 682 860
+rect 1293 825 1362 860
+rect 1975 825 2042 860
+rect 2647 825 2722 860
+rect 3327 825 3402 860
+rect 4005 825 4082 860
+rect 4685 825 4762 860
+rect 5371 825 5442 860
+rect 100 742 140 810
+rect 780 724 820 810
+rect 1460 732 1500 810
+rect 2140 718 2180 810
+rect 2820 726 2860 810
+rect 3500 720 3540 810
+rect 4180 728 4220 810
+rect 4860 732 4900 810
+<< metal3 >>
+rect 20 1420 234 1520
+rect 20 550 254 650
+rect 20 90 272 190
+use level_tx_1bit  level_tx_1bit_0
+array 0 7 680 0 0 1550
+timestamp 1687027365
+transform 1 0 1600 0 1 -430
+box -1580 470 -900 2020
+<< labels >>
+rlabel metal3 80 1474 80 1474 1 VDDA
+rlabel metal3 90 138 90 138 1 VCCD
+rlabel metal3 74 600 74 600 1 VSSD
+rlabel metal2 108 802 108 802 1 VIN0
+rlabel metal2 676 844 676 844 1 VOUT0
+rlabel metal2 790 796 790 796 1 VIN1
+rlabel metal2 1358 842 1358 842 1 VOUT1
+rlabel metal2 1488 796 1488 796 1 VIN2
+rlabel metal2 2036 846 2036 846 1 VOUT2
+rlabel metal2 2148 796 2148 796 1 VIN3
+rlabel metal2 2708 846 2708 846 1 VOUT3
+rlabel metal2 2852 800 2852 800 1 VIN4
+rlabel metal2 3392 844 3392 844 1 VOUT4
+rlabel metal2 3526 798 3526 798 1 VIN5
+rlabel metal2 4072 846 4072 846 1 VOUT5
+rlabel metal2 4192 800 4192 800 1 VIN6
+rlabel metal2 4756 848 4756 848 1 VOUT6
+rlabel metal2 4882 800 4882 800 1 VIN7
+rlabel metal2 5432 844 5432 844 1 VOUT7
+<< end >>

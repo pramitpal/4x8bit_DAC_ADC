@@ -1,0 +1,30 @@
+** sch_path: /foss/designs/8_bit_dac/All_layouts/Layout_v2/lvs/All_schematic/level_tx_8bit.sch
+.subckt level_tx_8bit VDDA VCCD VSSD VIN0 VOUT0 VIN1 VOUT1 VIN2 VOUT2 VIN3 VOUT3 VIN4 VOUT4 VIN5
++ VOUT5 VIN6 VOUT6 VIN7 VOUT7
+*.PININFO VDDA:B VCCD:B VSSD:B VIN0:I VOUT0:O VIN1:I VOUT1:O VIN2:I VOUT2:O VIN3:I VOUT3:O VIN4:I
+*+ VOUT4:O VIN5:I VOUT5:O VIN6:I VOUT6:O VIN7:I VOUT7:O
+x1 VDDA VOUT0 VCCD VIN0 VSSD level_tx_1bit
+x2 VDDA VOUT1 VCCD VIN1 VSSD level_tx_1bit
+x3 VDDA VOUT2 VCCD VIN2 VSSD level_tx_1bit
+x4 VDDA VOUT3 VCCD VIN3 VSSD level_tx_1bit
+x5 VDDA VOUT4 VCCD VIN4 VSSD level_tx_1bit
+x6 VDDA VOUT5 VCCD VIN5 VSSD level_tx_1bit
+x7 VDDA VOUT6 VCCD VIN6 VSSD level_tx_1bit
+x8 VDDA VOUT7 VCCD VIN7 VSSD level_tx_1bit
+.ends
+
+* expanding   symbol:
+*+  /foss/designs/8_bit_dac/All_layouts/Layout_v2/lvs/All_schematic/level_tx_1bit.sym # of pins=5
+** sym_path: /foss/designs/8_bit_dac/All_layouts/Layout_v2/lvs/All_schematic/level_tx_1bit.sym
+** sch_path: /foss/designs/8_bit_dac/All_layouts/Layout_v2/lvs/All_schematic/level_tx_1bit.sch
+.subckt level_tx_1bit VDDA VOUT VCCD VIN VSSD
+*.PININFO VDDA:B VIN:I VOUT:O VCCD:B VSSD:B
+XM4 net2 VOUT VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM5 net1 VIN VCCD VCCD sky130_fd_pr__pfet_01v8 L=0.15 W=1 nf=1 m=1
+XM6 net1 VIN VSSD VSSD sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 m=1
+XM7 net2 VIN VSSD VSSD sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM8 VOUT net1 VSSD VSSD sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=4 nf=1 m=1
+XM9 VOUT net2 VDDA VDDA sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+
+.end

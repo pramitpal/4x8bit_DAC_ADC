@@ -1,0 +1,104 @@
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__pfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_g5v0d10v5 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_g5v0d10v5    |Circuit 2: sky130_fd_pr__nfet_g5v0d10v5    
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: level_tx_1bit                   |Circuit 2: level_tx_1bit                   
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_g5v0d10v5 (2)           |sky130_fd_pr__pfet_g5v0d10v5 (2)           
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__nfet_g5v0d10v5 (2)           |sky130_fd_pr__nfet_g5v0d10v5 (2)           
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely with property errors.
+sky130_fd_pr__pfet_01v8:4 vs. sky130_fd_pr__pfet_01v8:M5:
+ l circuit1: 0.2   circuit2: 0.15   (delta=28.6%, cutoff=1%)
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:5 vs. sky130_fd_pr__nfet_g5v0d10v5:M8:
+ w circuit1: 1   circuit2: 4   (delta=120%, cutoff=1%)
+sky130_fd_pr__nfet_g5v0d10v5:2 vs. sky130_fd_pr__nfet_g5v0d10v5:M7:
+ w circuit1: 1   circuit2: 4   (delta=120%, cutoff=1%)
+sky130_fd_pr__nfet_01v8:1 vs. sky130_fd_pr__nfet_01v8:M6:
+ l circuit1: 0.2   circuit2: 0.15   (delta=28.6%, cutoff=1%)
+ w circuit1: 0.42   circuit2: 1   (delta=81.7%, cutoff=1%)
+sky130_fd_pr__pfet_g5v0d10v5:0 vs. sky130_fd_pr__pfet_g5v0d10v5:M4:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+sky130_fd_pr__pfet_g5v0d10v5:3 vs. sky130_fd_pr__pfet_g5v0d10v5:M9:
+ w circuit1: 0.5   circuit2: 1   (delta=66.7%, cutoff=1%)
+
+Subcircuit pins:
+Circuit 1: level_tx_1bit                   |Circuit 2: level_tx_1bit                   
+-------------------------------------------|-------------------------------------------
+VCCD                                       |VCCD                                       
+VSSD                                       |VSSD                                       
+VDDA                                       |VDDA                                       
+VOUT                                       |VOUT                                       
+VIN                                        |VIN                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes level_tx_1bit and level_tx_1bit are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ level_tx_1bit
