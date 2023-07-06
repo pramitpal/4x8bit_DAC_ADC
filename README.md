@@ -1,7 +1,7 @@
 # 4x8bit_dac
 4 x 8 Bit DAC taget to openroad/openlane flow and sky130 foundry. The latest Layouts and spice files can be found in [Layout_v2](https://github.com/pramitpal/8bit_dac/tree/main/Layout_v2) directory.
 
-| ![dac_top.jpg](Layout_v2/gds/dac_top.png) | 
+| ![dac_top.jpg](Layout_v2/Post-layout/gds/dac_top.png) | 
 |:--:| 
 | *4 x 8_bit_DAC (dac_top.gds)* |
 
@@ -133,6 +133,67 @@ netgen -batch lvs "$NETLIST_LAY $TOPCELL" "$NETLIST_SCH $TOPCELL" \
 The output report is stored in the current directory itself. If the two netlists match, it will be displayed in the ``comp.out`` file as:
 
 ``Final result: Circuits match uniquely.``
+The final lvs result of top level dac:
+```
+Subcircuit pins:
+Circuit 1: dac_top                         |Circuit 2: dac_top                         
+-------------------------------------------|-------------------------------------------
+VDDA                                       |VDDA                                       
+VSSA                                       |VSSA                                       
+VREFH                                      |VREFH                                      
+VCCD                                       |VCCD                                       
+VSSD                                       |VSSD                                       
+Din2[0]                                    |Din2[0]                                    
+Din0[0]                                    |Din0[0]                                    
+Din3[0]                                    |Din3[0]                                    
+Din1[0]                                    |Din1[0]                                    
+Din2[1]                                    |Din2[1]                                    
+Din0[1]                                    |Din0[1]                                    
+Din3[1]                                    |Din3[1]                                    
+Din1[1]                                    |Din1[1]                                    
+Din2[2]                                    |Din2[2]                                    
+Din0[2]                                    |Din0[2]                                    
+Din3[2]                                    |Din3[2]                                    
+Din1[2]                                    |Din1[2]                                    
+Din2[3]                                    |Din2[3]                                    
+Din0[3]                                    |Din0[3]                                    
+Din3[3]                                    |Din3[3]                                    
+Din1[3]                                    |Din1[3]                                    
+VOUT0                                      |VOUT0                                      
+VOUT1                                      |VOUT1                                      
+VOUT2                                      |VOUT2                                      
+VOUT3                                      |VOUT3                                      
+Din2[4]                                    |Din2[4]                                    
+Din0[4]                                    |Din0[4]                                    
+Din3[4]                                    |Din3[4]                                    
+Din1[4]                                    |Din1[4]                                    
+Din0[5]                                    |Din0[5]                                    
+Din3[5]                                    |Din3[5]                                    
+Din1[5]                                    |Din1[5]                                    
+Din2[5]                                    |Din2[5]                                    
+Din0[6]                                    |Din0[6]                                    
+Din3[6]                                    |Din3[6]                                    
+Din1[6]                                    |Din1[6]                                    
+Din2[6]                                    |Din2[6]                                    
+Din0[7]                                    |Din0[7]                                    
+Din3[7]                                    |Din3[7]                                    
+Din1[7]                                    |Din1[7]                                    
+Din2[7]                                    |Din2[7]                                    
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes dac_top and dac_top are equivalent.
+
+Final result: Circuits match uniquely.
+Property errors were found.
+
+The following cells had property errors:
+ switch2n_3v3
+ level_tx_1bit
+ opamp
+ dac_top
+```
+After which we can safely confirm that our layout exactly matches the schematic.
+
 # Measurement of 8-bit DAC characteristics
 First the netlist for 8_bit_dac_tx_buffer.mag layout is extracted without parasitics from which we can calculate a rough estimate of the time delay between the input signal and the buffered DAC output.
 To extract the netlist without parasitics we use
