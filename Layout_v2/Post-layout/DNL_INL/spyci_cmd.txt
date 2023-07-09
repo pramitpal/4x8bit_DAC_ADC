@@ -1,0 +1,1 @@
+spyci -r <test.ra> 1 2 3 4
