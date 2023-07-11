@@ -308,6 +308,16 @@ LSB refers to the Least Significant Bit, which represents the smallest possible 
 
 <img src="DNL.png" width="810">
 
+<br/>
+
+__E. Integral Nonlinearity (INL)__ : INL is the maximum deviation of the output from the ideal straight line between zero and full scale, excluding the effects of zero code and full-scale errors. The INL is calculated for codes 0-255 and is typically expressed in LSBs. A lower INL indicates better linearity.
+
+<table>
+  <tr>
+    <td align="center"><img src="INL_Unbuffered.png" width="800" alt="INL_Unbuffered"></td>
+    <td align="center"><img src="INL_Buffered.png" width="800" alt="INL_Buffered"></td>
+  </tr>
+</table>
 
 | 	Sl. no.	 | 	Property	 | 	Value	 | 
 | 	:-----:	 | 	:-----:	 | 	:-----:	 | 
