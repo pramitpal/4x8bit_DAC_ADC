@@ -305,8 +305,12 @@ LSB refers to the Least Significant Bit, which represents the smallest possible 
 
 ``DNL= 0.01478 = 1.478 %``.
 
-
-<img src="DNL.png" width="810">
+<table>
+  <tr>
+    <td align="center"><img src="DNL_Unbuffered.png" width="800" alt="DNL_Unbuffered"></td>
+    <td align="center"><img src="DNL_Buffered.png" width="800" alt="DNL_Buffered"></td>
+  </tr>
+</table>
 
 <br/>
 
