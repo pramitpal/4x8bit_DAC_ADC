@@ -323,8 +323,7 @@ __E. Integral Nonlinearity (INL)__ : INL is the maximum deviation of the output 
   </tr>
 </table>
 
-## Transfer Characteristics
-To find the transfer characteristics we have employed a unique approach to do DC analysis multiple times in ngspice and using that to find out the transfer characteristics. For our 8bit dac the test.spice file is as follows.
+__F. Transfer Characteristics__ : To find the transfer characteristics we have employed a unique approach to do DC analysis multiple times in ngspice and using that to find out the transfer characteristics. For our 8bit dac the test.spice file is as follows.
 ```
 * testing to output binary codes
 
@@ -426,6 +425,10 @@ After simulation is finished we will have a ``rawfile.txt`` with us whose conten
 <img src="rawfile_contents.png" width="550">
 
 After which we can import these data in a spreadsheet to calculate things like vin vs vout, DNL, INL etc.
+
+<img src="transfer_characteristic.png" width="550">
+
+<br/>
 
 # Parameters
 <!---
