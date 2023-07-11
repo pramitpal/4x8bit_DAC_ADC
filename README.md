@@ -421,13 +421,15 @@ quit
 
 ```
 After simulation is finished we will have a ``rawfile.txt`` with us whose contents are as follows.
-
-<img src="rawfile_contents.png" width="550">
-
 After which we can import these data in a spreadsheet to calculate things like vin vs vout, DNL, INL etc.
 
-<img src="transfer_characteristic.png" width="550">
 
+<table>
+  <tr>
+    <td align="center"><img src="rawfile_contents.png" width="800" height="125" alt="rawfile_contents"></td>
+    <td align="center"><img src="transfer_characteristic.png" width="800" alt="transfer_characteristic"></td>
+  </tr>
+</table>
 <br/>
 
 # Parameters
