@@ -2124,47 +2124,4 @@ X2118 opamp_0/a_3246_n774# opamp_0/a_408_552# opamp_0/a_2416_n774# VDDA sky130_f
 X2119 VDDA opamp_0/a_1300_n354# opamp_0/a_1300_n354# VDDA sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.29 as=2.32 ps=16.6 w=8 l=1
 .ends
 
-X1 VDDA VSSD VCCD VSSA D0 D1 D2 D3 D4 D5 D6 D7 VOUT VREFH VOUT_BUF x8_bit_dac_tx_buffer
-   
-.param mc_mm_switch=0
-.param mc_pr_switch=0
-.lib "/foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice.tt.red" tt
 
-*.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
-*.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
-*.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
-*.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
-
-V1 VSSA 0 dc 0
-V2 VDDA 0 dc 3.3
-
-V3 VSSD 0 dc 0
-V4 VCCD 0 dc 1.8
-
-V5 VREFH 0 dc 3.3
-
-V6  D0 0 PULSE(0 1.8 1u 1n 1n 1u 2u)
-V7  D1 0 PULSE(0 1.8 2u 1n 1n 2u 4u)
-V8  D2 0 PULSE(0 1.8 4u 1n 1n 4u 8u)
-V9  D3 0 PULSE(0 1.8 8u 1n 1n 8u 16u)
-V10 D4 0 PULSE(0 1.8 16u 1n 1n 16u 32u)
-V11 D5 0 PULSE(0 1.8 32u 1n 1n 32u 64u)
-V12 D6 0 PULSE(0 1.8 64u 1n 1n 64u 128u)
-V13 D7 0 PULSE(0 1.8 128u 1n 1n 128u 256u)
-
-.tran 0.05u 256u uic
-
-*.measure tran tdiff_in_vout TRIG v(D7) VAL=0.9 RISE=1 TARG v(VOUT) VAL=0.828 RISE=1
-*.measure tran tdiff_vout_voutbuf TRIG v(VOUT) VAL=0.828 RISE=1 TARG v(VOUT_BUF) VAL=0.828 RISE=1
-
-.control
-run
-set filetype=ascii
-set xbrushwidth=2
-
-plot D7 VOUT VOUT_BUF 
-write 8_bit_dac.raw D0 VOUT VOUT_BUF
-*hardcopy out.svg VOUT VOUT_BUF
-
-.endc
-.end

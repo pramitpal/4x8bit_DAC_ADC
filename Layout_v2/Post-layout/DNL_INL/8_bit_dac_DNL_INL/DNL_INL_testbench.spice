@@ -1,0 +1,93 @@
+* testing to output binary codes
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+
+.lib "/foss/pdks/sky130A/libs.tech/ngspice/sky130.lib.spice.tt.red" tt
+.include "8_bit_dac_tx_buffer.spice"
+
+X1 VDDA VSSD VCCD VSSA b0 b1 b2 b3 b4 b5 b6 b7 VOUT VREFH VOUT_BUF x8_bit_dac_tx_buffer
+
+V1 VSSA 0 dc 0
+V2 VDDA 0 dc 3.3
+V3 VSSD 0 dc 0
+V4 VCCD 0 dc 1.8
+
+V5 VREFH 0 dc 3.3
+
+Vb0  b0 0 1
+Vb1  b1 0 1
+Vb2  b2 0 1
+Vb3  b3 0 1
+Vb4  b4 0 1
+Vb5  b5 0 1
+Vb6  b6 0 1
+Vb7  b7 0 1
+
+.control
+set wr_vecnames
+set wr_singlescale
+let code = 0
+let max_voltage = 1.8
+while code<256
+	if code eq 0
+		let b0 = 0
+	else
+		let b0 = code % 2  
+	end	
+	if floor(code / 2) eq 0
+		let b1 = 0
+	else
+		let b1 = floor(code / 2) %2
+	end
+	if floor(code / 4) eq 0
+		let b2 = 0
+	else
+		let b2 = floor(code / 4) %2
+	end
+	if floor(code / 8) eq 0
+		let b3 = 0
+	else
+		let b3 = floor(code / 8) %2
+	end
+	if floor(code / 16) eq 0
+		let b4 = 0
+	else
+		let b4 = floor(code / 16) %2
+	end
+	if floor(code / 32) eq 0
+		let b5 = 0
+	else
+		let b5 = floor(code / 32) %2
+	end
+	if floor(code / 64) eq 0
+		let b6 = 0
+	else
+		let b6 = floor(code / 64) %2
+	end
+	if floor(code / 128) eq 0
+		let b7 = 0
+	else
+		let b7 = floor(code / 128) %2
+	end
+	
+	alter vb0 $&b0*$&max_voltage
+	alter vb1 $&b1*$&max_voltage
+	alter vb2 $&b2*$&max_voltage
+	alter vb3 $&b3*$&max_voltage
+	alter vb4 $&b4*$&max_voltage
+	alter vb5 $&b5*$&max_voltage
+	alter vb6 $&b6*$&max_voltage
+	alter vb7 $&b7*$&max_voltage
+	
+	save all
+	op
+	wrdata rawfile.txt v(b7) v(b6) v(b5) v(b4) v(b3) v(b2) v(b1) v(b0) v(vout) v(vout_buf)
+	if code eq 0 
+		set appendwrite
+		set wr_vecnames = TRUE
+	end
+	let code = code + 1
+end
+quit
+.endc
