@@ -1,0 +1,77 @@
+** sch_path: /foss/designs/Sample&Hold/schematic/inverter_tb.sch
+**.subckt inverter_tb
+Vin Vin VSS PULSE(0 3.3 0 0.1n 0.1n 20n 40n)
+.save i(vin)
+VVSS VSS 0 0
+.save i(vvss)
+VVCC VCC 0 VCC
+.save i(vvcc)
+E5 TEMPERAT VSS VOL=' temper '
+x1 VCC VSS Vin VOUT inverter
+**** begin user architecture code
+
+
+** this experimental option enables mos model bin
+** selection based on W/NF instead of W
+.option chgtol=4e-16 method=gear
+
+*.param VCCGAUSS = agauss(3.3, 0.05, 1)
+*.param VCC = 'VCCGAUSS'
+** use following line to remove VCC variations
+.param VCC = 3.3
+
+*.param TEMPGAUSS = agauss(40, 30, 1)
+*.option temp = 'TEMPGAUSS'
+** use following line to remove temperature variations
+.option temp = 25
+
+*.param DELTA = 0.002
+
+.control
+  option seed = 8
+  let run = 1
+  save all
+  op
+  write ./simulation/inverter_tb.raw
+  reset
+  set appendwrite
+  dowhile run < = 50
+    *save Vin temperat vcc vss vout
+    save all
+    *tran 0.1n 80n uic
+    dc Vin 0 3.3 0.01
+    write ./simulation/inverter_tb.raw
+    let run = run + 1
+    reset
+  end
+.endc
+
+
+
+.param mc_mm_switch=1
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /foss/designs/Sample&Hold/schematic/inverter.sym # of pins=4
+** sym_path: /foss/designs/Sample&Hold/schematic/inverter.sym
+** sch_path: /foss/designs/Sample&Hold/schematic/inverter.sch
+.subckt inverter VDD VSS in out
+*.iopin VDD
+*.iopin VSS
+*.ipin in
+*.opin out
+XM3 out in VDD VDD sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=2 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+XM4 out in VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
++ sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.end
