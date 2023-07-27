@@ -1,0 +1,11 @@
+** sch_path: /foss/designs/Mux/schematic/Mux.sch
+.subckt Mux VCC SEL OUT VSS A B
+*.PININFO VCC:B SEL:I OUT:O VSS:B A:I B:I
+XM1 OUT SEL A VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM2 OUT SEL_N A VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM3 OUT SEL_N B VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM4 OUT SEL B VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM5 SEL_N SEL VCC VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM6 SEL_N SEL VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+.end

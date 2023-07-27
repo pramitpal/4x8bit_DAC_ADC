@@ -1,0 +1,40 @@
+* SPICE3 file created from Mux.ext - technology: sky130A
+
+.subckt Mux VCC VSS OUT SEL A B
+X0 a_8221_5082# SEL VCC VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.244 pd=2.26 as=0.244 ps=2.26 w=0.84 l=0.5
+X1 OUT SEL B VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0.487 pd=4.52 as=0.244 ps=2.26 w=0.84 l=0.5
+X2 OUT a_8221_5082# A VCC sky130_fd_pr__pfet_g5v0d10v5 ad=0 pd=0 as=0.244 ps=2.26 w=0.84 l=0.5
+X3 OUT a_8221_5082# B VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.5
+X4 a_8221_5082# SEL VSS VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.122 pd=1.42 as=0.122 ps=1.42 w=0.42 l=0.5
+X5 OUT SEL A VSS sky130_fd_pr__nfet_g5v0d10v5 ad=0.244 pd=2.84 as=0.122 ps=1.42 w=0.42 l=0.5
+C0 VCC VSS 2.68f
+.ends
+
+.param mc_mm_switch=0
+.param mc_pr_switch=0
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/r+c/res_typical__cap_typical__lin.spice
+.include /foss/pdks/sky130A/libs.tech/ngspice/corners/tt/specialized_cells.spice
+
+x1 VCC VSS OUT SEL A B Mux
+
+VA A VSS SIN(1.65 2 2k 0)
+VB B VSS SIN(1.65 2 20k 0)
+
+v1 vss 0 dc 0
+v2 vcc 0 dc 3.3
+V3 SEL 0 PULSE(0 3.3 0 1n 1n 100u 200u)
+
+.save all
+.tran 0.1u 1m
+**** interactive sim
+.control
+run
+*set filetype=ascii
+*set filetype=binary
+*write opamp_testbench.raw all
+plot out sel
+*exit
+.endc
+.end

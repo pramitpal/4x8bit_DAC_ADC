@@ -1,4 +1,4 @@
-** sch_path: /foss/designs/Mux/Mux_tb.sch
+** sch_path: /foss/designs/Mux/schematic/Mux_tb.sch
 **.subckt Mux_tb
 x1 VCC VSS SEL OUT A B Mux
 VA A VSS SIN(1.65 2 2k 0)
@@ -37,9 +37,9 @@ plot out sel
 **** end user architecture code
 **.ends
 
-* expanding   symbol:  /foss/designs/Mux/Mux.sym # of pins=6
-** sym_path: /foss/designs/Mux/Mux.sym
-** sch_path: /foss/designs/Mux/Mux.sch
+* expanding   symbol:  Mux.sym # of pins=6
+** sym_path: /foss/designs/Mux/schematic/Mux.sym
+** sch_path: /foss/designs/Mux/schematic/Mux.sch
 .subckt Mux VCC VSS SEL OUT A B
 *.iopin VCC
 *.ipin SEL
