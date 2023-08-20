@@ -1,0 +1,22 @@
+** sch_path: /foss/designs/Sample&Hold/schematic/working/sample_hold.sch
+.subckt sample_hold VCC VIN VOUT CLK VSS
+*.PININFO VCC:B VIN:I VOUT:O CLK:I VSS:B
+XM5 net1 net4 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM6 net3 CLKN VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMa net2 CLK net3 VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMb net2 CLK VCC VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMc net2 net4 net3 VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM2 net4 net2 net1 VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM3 VIN net4 net3 VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM8 net4 VCC net5 VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM4 net5 CLKN VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XM1 VOUT net4 VIN VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=2 m=1
+XM7 VOUT net6 VIN VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMa1 net6 net4 VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMb2 net6 net4 VCC VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XC1 VOUT VSS sky130_fd_pr__cap_mim_m3_1 W=10 L=10 m=2
+XC2 net1 net3 sky130_fd_pr__cap_mim_m3_1 W=10 L=10 m=2
+XMa2 CLKN CLK VSS VSS sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+XMb3 CLKN CLK VCC VCC sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=1 nf=1 m=1
+.ends
+.end

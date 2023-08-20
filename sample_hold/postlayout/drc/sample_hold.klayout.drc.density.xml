@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>Density Checks</description>
+ <original-file/>
+ <generator>drc: script='/foss/pdks/sky130A/libs.tech/klayout/drc/met_min_ca_density.lydrc'</generator>
+ <top-cell>sample_hold</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>m3.pd.1d</name>
+   <description>0.4 min m3 ca pattern density</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>m4.pd.1d</name>
+   <description>0.4 min m4 ca pattern density, m4 ca density is -0.2657227308454462</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>sample_hold</name>
+   <variant/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_fd_pr__cap_mim_m3_1_3DGTNZ</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>sample_hold</parent>
+     <trans>r0 *1 8.74,-15.845</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>sky130_fd_pr__cap_mim_m3_1_DMGF22</name>
+   <variant/>
+   <references>
+    <ref>
+     <parent>sample_hold</parent>
+     <trans>r0 *1 9.44,13.44</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_fd_pr__cap_mim_m3_1_3DGTNZ</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (-5.93,0.6;-5.93,11;4.47,11;4.47,0.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m3.pd.1d'</category>
+   <cell>sky130_fd_pr__cap_mim_m3_1_DMGF22</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (-5.2,-5.2;-5.2,5.2;5.2,5.2;5.2,-5.2)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_fd_pr__cap_mim_m3_1_3DGTNZ</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (-5.93,0.6;-5.93,11;4.47,11;4.47,0.6)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'m4.pd.1d'</category>
+   <cell>sky130_fd_pr__cap_mim_m3_1_DMGF22</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <image/>
+   <values>
+    <value>polygon: (-5.2,-5.2;-5.2,5.2;5.2,5.2;5.2,-5.2)</value>
+   </values>
+  </item>
+ </items>
+</report-database>

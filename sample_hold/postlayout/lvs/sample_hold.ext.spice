@@ -1,0 +1,57 @@
+* NGSPICE file created from sample&hold.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_SACDK5 a_50_n100# a_n50_n126# a_n108_n100# VSUBS
+X0 a_50_n100# a_n50_n126# a_n108_n100# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7 w_n144_n162# a_50_n100# a_n50_n126# a_n108_n100#
+X0 a_50_n100# a_n50_n126# a_n108_n100# w_n144_n162# sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_LWV9XU a_129_n131# a_29_n157# a_n129_n157# a_n29_n131#
++ a_n187_n131# VSUBS
+X0 a_129_n131# a_29_n157# a_n29_n131# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+X1 a_n29_n131# a_n129_n157# a_n187_n131# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_TUZSY8 a_n187_n136# a_129_n136# w_n223_n198#
++ a_29_n162# a_n129_n162# a_n29_n136#
+X0 a_n29_n136# a_n129_n162# a_n187_n136# w_n223_n198# sky130_fd_pr__pfet_g5v0d10v5 ad=0.145 pd=1.29 as=0.29 ps=2.58 w=1 l=0.5
+X1 a_129_n136# a_29_n162# a_n29_n136# w_n223_n198# sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.145 ps=1.29 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_YM4LZ5 a_n108_n64# w_n144_n164# a_50_n64# a_n50_n161#
+X0 a_50_n64# a_n50_n161# a_n108_n64# w_n144_n164# sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt sky130_fd_pr__cap_mim_m3_1_3DGTNZ m3_n1186_n2200# c1_n1146_n2160#
+X0 c1_n1146_n2160# m3_n1186_n2200# sky130_fd_pr__cap_mim_m3_1 l=10 w=10
+X1 c1_n1146_n2160# m3_n1186_n2200# sky130_fd_pr__cap_mim_m3_1 l=10 w=10
+.ends
+
+.subckt sample_hold CLK VIN VOUT VCC VSS
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_0 m1_900_n309# a_804_n134# VSS VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_1 m1_1467_624# a_1250_n133# VSS VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_2 m1_1068_n250# CLK m1_900_n309# VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_3 VSS a_804_n134# sky130_fd_pr__nfet_g5v0d10v5_SACDK5_5/a_50_n100#
++ VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_5 sky130_fd_pr__nfet_g5v0d10v5_SACDK5_5/a_50_n100#
++ VCC a_1250_n133# VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_4 m1_900_n309# a_1250_n133# m1_1068_n250# VSS
++ sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_6 VSS CLK a_804_n134# VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__nfet_g5v0d10v5_SACDK5_7 VIN a_1250_n133# m1_900_n309# VSS sky130_fd_pr__nfet_g5v0d10v5_SACDK5
+Xsky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7_0 VCC m1_1467_624# a_1250_n133# VCC sky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7
+Xsky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7_2 VCC a_804_n134# CLK VCC sky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7
+Xsky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7_1 VCC m1_1068_n250# CLK VCC sky130_fd_pr__pfet_g5v0d10v5_NQ4LZ7
+Xsky130_fd_pr__nfet_g5v0d10v5_LWV9XU_0 VOUT a_1250_n133# a_1250_n133# VIN VOUT VSS
++ sky130_fd_pr__nfet_g5v0d10v5_LWV9XU
+Xsky130_fd_pr__pfet_g5v0d10v5_TUZSY8_0 VIN VIN VCC m1_1467_624# m1_1467_624# VOUT
++ sky130_fd_pr__pfet_g5v0d10v5_TUZSY8
+Xsky130_fd_pr__pfet_g5v0d10v5_YM4LZ5_0 m1_1059_437# VCC VCC a_1250_n133# sky130_fd_pr__pfet_g5v0d10v5_YM4LZ5
+Xsky130_fd_pr__pfet_g5v0d10v5_YM4LZ5_1 a_1250_n133# VCC m1_1059_437# m1_1068_n250#
++ sky130_fd_pr__pfet_g5v0d10v5_YM4LZ5
+Xsky130_fd_pr__cap_mim_m3_1_3DGTNZ_1 m1_900_n309# m1_1059_437# sky130_fd_pr__cap_mim_m3_1_3DGTNZ
+Xsky130_fd_pr__cap_mim_m3_1_3DGTNZ_0 VSS VOUT sky130_fd_pr__cap_mim_m3_1_3DGTNZ
+.ends
+
